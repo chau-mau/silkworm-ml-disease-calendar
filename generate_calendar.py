@@ -129,7 +129,7 @@ def main():
     for row in df.to_dict("records"):
         by_doy[row["doy"]].append(row)
 
-    typical_year = 2025
+    typical_year = 2026
     records = []
     for m in range(1, 13):
         for dd in range(1, 32):

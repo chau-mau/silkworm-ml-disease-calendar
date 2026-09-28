@@ -101,7 +101,7 @@
 
     <main class="container my-5">
         <div class="text-center mb-4">
-            <h1 class="display-6 fw-bold text-primary"><i class="fas fa-calendar-alt me-2"></i>Tasar Silkworm Disease Calendar (Ranchi)</h1>
+            <h1 class="display-6 fw-bold text-primary"><i class="fas fa-calendar-alt me-2"></i>Tasar Silkworm Disease Calendar 2026 (Ranchi)</h1>
             <p class="lead text-muted">Round-the-year Virosis &amp; Bacteriosis risk from a machine-learning (Random Forest) model</p>
         </div>
 
@@ -326,7 +326,7 @@
             const startOffset = firstDay.getDay();
             const daysInMonth = new Date(group.year, group.month + 1, 0).getDate();
 
-            let html = `<div class="calendar-month"><h4 class="month-title">${MONTH_NAMES[group.month]}</h4>`;
+            let html = `<div class="calendar-month"><h4 class="month-title">${MONTH_NAMES[group.month]} ${group.year}</h4>`;
             html += `<div class="calendar-grid">`;
             DAY_NAMES.forEach(dn => html += `<div class="day-header">${dn}</div>`);
             for (let i = 0; i < startOffset; i++) html += `<div class="day-cell empty"></div>`;
