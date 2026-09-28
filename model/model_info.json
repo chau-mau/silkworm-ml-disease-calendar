@@ -1,0 +1,31 @@
+{
+  "features": [
+    "Tmax",
+    "Tmin",
+    "Humidity",
+    "THI",
+    "Wind_Speed"
+  ],
+  "diseases": [
+    "Virosis",
+    "Bacteriosis"
+  ],
+  "training_data": "results/merged_data_2025_2026.csv (2025 field data + 2026 Aug-Sep records, weather only)",
+  "thi_formula": "NRC (1971): THI = (1.8T+32) - (0.55-0.0055*RH)*(1.8T-58), T = mean of Tmax/Tmin",
+  "climate_source_2026": "NASA POWER daily (Aug 1 - Sep 17, 2026); Open-Meteo ERA5 backfill (Sep 18-22, 2026)",
+  "feature_descriptions": {
+    "Tmax": "Maximum Temperature (\u00b0C)",
+    "Tmin": "Minimum Temperature (\u00b0C)",
+    "Humidity": "Relative Humidity (%)",
+    "THI": "Temperature-Humidity Index (NRC 1971, derived from weather)",
+    "Wind_Speed": "Wind Speed (m/s)"
+  },
+  "Virosis_accuracy": {
+    "RF": 0.7916666666666666,
+    "LR": 0.7916666666666666
+  },
+  "Bacteriosis_accuracy": {
+    "RF": 0.7916666666666666,
+    "LR": 0.7916666666666666
+  }
+}

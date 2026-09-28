@@ -1,0 +1,6995 @@
+{
+ "summary": {
+  "total_days": 365,
+  "historical_days": 1826,
+  "year_range": "2021-2025",
+  "location": {
+   "name": "Ranchi, Jharkhand",
+   "lat": 23.3441,
+   "lon": 85.3096
+  },
+  "model": {
+   "Virosis": {
+    "rf_accuracy": 0.7916666666666666,
+    "rf_accuracy_2026_holdout": 0.9433962264150944,
+    "feature_importance": {
+     "Tmin": 0.225819237053314,
+     "Tmax": 0.22009956002247696,
+     "Humidity": 0.2017675933537289,
+     "THI": 0.1908263888911691,
+     "Wind_Speed": 0.16148722067931087
+    },
+    "n_samples": 116,
+    "n_positive": 31
+   },
+   "Bacteriosis": {
+    "rf_accuracy": 0.7916666666666666,
+    "rf_accuracy_2026_holdout": 0.9811320754716981,
+    "feature_importance": {
+     "Tmax": 0.22171792246718744,
+     "Tmin": 0.21171884127762441,
+     "THI": 0.21140337654418198,
+     "Wind_Speed": 0.18101646414784234,
+     "Humidity": 0.17414339556316374
+    },
+    "n_samples": 116,
+    "n_positive": 21
+   }
+  },
+  "base_rate": {
+   "Virosis": 0.267,
+   "Bacteriosis": 0.181
+  },
+  "prob_cuts": {
+   "Virosis": [
+    0.2355,
+    0.2816,
+    0.3257
+   ],
+   "Bacteriosis": [
+    0.2396,
+    0.2671,
+    0.2896
+   ]
+  },
+  "note": "Calendar colours come from Random Forest models trained on CTRTI Ranchi 2025-2026 field observations (features: Tmax, Tmin, Humidity, THI, Wind Speed). Each day's risk is the model's disease probability averaged over 2021-2025 NASA POWER daily climate for the same calendar date.",
+  "disclaimer": "Disease incidence is subject to rearing season, crop stage, and management practices. This calendar indicates climate-based risk only and should be used as a decision-support tool, not a definitive forecast."
+ },
+ "records": [
+  {
+   "date": "2025-01-01",
+   "tmax": 21.2,
+   "tmin": 7.8,
+   "humidity": 69.8,
+   "wind_speed": 2.42,
+   "rainfall": 0.0,
+   "thi": 63.4,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.23,
+    "risk": "Low"
+   },
+   "bacteriosis": {
+    "probability": 0.214,
+    "risk": "Low"
+   },
+   "combined_risk": "Low"
+  },
+  {
+   "date": "2025-01-02",
+   "tmax": 20.8,
+   "tmin": 7.7,
+   "humidity": 71.5,
+   "wind_speed": 2.4,
+   "rainfall": 0.0,
+   "thi": 62.7,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.229,
+    "risk": "Low"
+   },
+   "bacteriosis": {
+    "probability": 0.206,
+    "risk": "Low"
+   },
+   "combined_risk": "Low"
+  },
+  {
+   "date": "2025-01-03",
+   "tmax": 22.3,
+   "tmin": 8.4,
+   "humidity": 70.2,
+   "wind_speed": 2.1,
+   "rainfall": 0.0,
+   "thi": 64.5,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.229,
+    "risk": "Low"
+   },
+   "bacteriosis": {
+    "probability": 0.202,
+    "risk": "Low"
+   },
+   "combined_risk": "Low"
+  },
+  {
+   "date": "2025-01-04",
+   "tmax": 22.5,
+   "tmin": 9.4,
+   "humidity": 67.5,
+   "wind_speed": 1.78,
+   "rainfall": 0.0,
+   "thi": 66.0,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.231,
+    "risk": "Low"
+   },
+   "bacteriosis": {
+    "probability": 0.204,
+    "risk": "Low"
+   },
+   "combined_risk": "Low"
+  },
+  {
+   "date": "2025-01-05",
+   "tmax": 22.7,
+   "tmin": 10.0,
+   "humidity": 68.1,
+   "wind_speed": 1.93,
+   "rainfall": 0.15,
+   "thi": 66.5,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.231,
+    "risk": "Low"
+   },
+   "bacteriosis": {
+    "probability": 0.203,
+    "risk": "Low"
+   },
+   "combined_risk": "Low"
+  },
+  {
+   "date": "2025-01-06",
+   "tmax": 23.4,
+   "tmin": 9.5,
+   "humidity": 67.3,
+   "wind_speed": 2.18,
+   "rainfall": 0.05,
+   "thi": 66.7,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.233,
+    "risk": "Low"
+   },
+   "bacteriosis": {
+    "probability": 0.205,
+    "risk": "Low"
+   },
+   "combined_risk": "Low"
+  },
+  {
+   "date": "2025-01-07",
+   "tmax": 22.9,
+   "tmin": 9.6,
+   "humidity": 68.0,
+   "wind_speed": 2.67,
+   "rainfall": 0.0,
+   "thi": 66.4,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.234,
+    "risk": "Low"
+   },
+   "bacteriosis": {
+    "probability": 0.208,
+    "risk": "Low"
+   },
+   "combined_risk": "Low"
+  },
+  {
+   "date": "2025-01-08",
+   "tmax": 22.7,
+   "tmin": 9.1,
+   "humidity": 66.1,
+   "wind_speed": 2.31,
+   "rainfall": 0.0,
+   "thi": 66.2,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.239,
+    "risk": "Moderate"
+   },
+   "bacteriosis": {
+    "probability": 0.216,
+    "risk": "Low"
+   },
+   "combined_risk": "Moderate"
+  },
+  {
+   "date": "2025-01-09",
+   "tmax": 23.7,
+   "tmin": 9.9,
+   "humidity": 62.8,
+   "wind_speed": 2.12,
+   "rainfall": 0.04,
+   "thi": 68.1,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.236,
+    "risk": "Moderate"
+   },
+   "bacteriosis": {
+    "probability": 0.222,
+    "risk": "Low"
+   },
+   "combined_risk": "Moderate"
+  },
+  {
+   "date": "2025-01-10",
+   "tmax": 23.7,
+   "tmin": 10.3,
+   "humidity": 67.9,
+   "wind_speed": 2.74,
+   "rainfall": 0.09,
+   "thi": 67.6,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.236,
+    "risk": "Moderate"
+   },
+   "bacteriosis": {
+    "probability": 0.225,
+    "risk": "Low"
+   },
+   "combined_risk": "Moderate"
+  },
+  {
+   "date": "2025-01-11",
+   "tmax": 22.5,
+   "tmin": 10.4,
+   "humidity": 69.2,
+   "wind_speed": 2.64,
+   "rainfall": 0.98,
+   "thi": 66.5,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.238,
+    "risk": "Moderate"
+   },
+   "bacteriosis": {
+    "probability": 0.224,
+    "risk": "Low"
+   },
+   "combined_risk": "Moderate"
+  },
+  {
+   "date": "2025-01-12",
+   "tmax": 22.6,
+   "tmin": 9.2,
+   "humidity": 65.3,
+   "wind_speed": 2.54,
+   "rainfall": 2.25,
+   "thi": 66.2,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.236,
+    "risk": "Moderate"
+   },
+   "bacteriosis": {
+    "probability": 0.23,
+    "risk": "Low"
+   },
+   "combined_risk": "Moderate"
+  },
+  {
+   "date": "2025-01-13",
+   "tmax": 22.3,
+   "tmin": 8.7,
+   "humidity": 63.3,
+   "wind_speed": 2.73,
+   "rainfall": 0.1,
+   "thi": 66.0,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.235,
+    "risk": "Low"
+   },
+   "bacteriosis": {
+    "probability": 0.23,
+    "risk": "Low"
+   },
+   "combined_risk": "Low"
+  },
+  {
+   "date": "2025-01-14",
+   "tmax": 21.8,
+   "tmin": 7.6,
+   "humidity": 62.3,
+   "wind_speed": 2.41,
+   "rainfall": 0.14,
+   "thi": 65.1,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.231,
+    "risk": "Low"
+   },
+   "bacteriosis": {
+    "probability": 0.226,
+    "risk": "Low"
+   },
+   "combined_risk": "Low"
+  },
+  {
+   "date": "2025-01-15",
+   "tmax": 21.1,
+   "tmin": 8.7,
+   "humidity": 62.3,
+   "wind_speed": 2.42,
+   "rainfall": 0.33,
+   "thi": 65.2,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.226,
+    "risk": "Low"
+   },
+   "bacteriosis": {
+    "probability": 0.227,
+    "risk": "Low"
+   },
+   "combined_risk": "Low"
+  },
+  {
+   "date": "2025-01-16",
+   "tmax": 21.4,
+   "tmin": 7.5,
+   "humidity": 57.0,
+   "wind_speed": 2.11,
+   "rainfall": 0.0,
+   "thi": 65.5,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.224,
+    "risk": "Low"
+   },
+   "bacteriosis": {
+    "probability": 0.224,
+    "risk": "Low"
+   },
+   "combined_risk": "Low"
+  },
+  {
+   "date": "2025-01-17",
+   "tmax": 22.0,
+   "tmin": 7.3,
+   "humidity": 62.2,
+   "wind_speed": 2.34,
+   "rainfall": 0.15,
+   "thi": 64.8,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.218,
+    "risk": "Low"
+   },
+   "bacteriosis": {
+    "probability": 0.222,
+    "risk": "Low"
+   },
+   "combined_risk": "Low"
+  },
+  {
+   "date": "2025-01-18",
+   "tmax": 22.5,
+   "tmin": 7.8,
+   "humidity": 66.0,
+   "wind_speed": 2.48,
+   "rainfall": 0.21,
+   "thi": 65.0,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.212,
+    "risk": "Low"
+   },
+   "bacteriosis": {
+    "probability": 0.223,
+    "risk": "Low"
+   },
+   "combined_risk": "Low"
+  },
+  {
+   "date": "2025-01-19",
+   "tmax": 22.6,
+   "tmin": 7.3,
+   "humidity": 64.9,
+   "wind_speed": 2.73,
+   "rainfall": 0.03,
+   "thi": 64.8,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.212,
+    "risk": "Low"
+   },
+   "bacteriosis": {
+    "probability": 0.218,
+    "risk": "Low"
+   },
+   "combined_risk": "Low"
+  },
+  {
+   "date": "2025-01-20",
+   "tmax": 23.1,
+   "tmin": 8.0,
+   "humidity": 63.1,
+   "wind_speed": 2.96,
+   "rainfall": 0.04,
+   "thi": 66.0,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.212,
+    "risk": "Low"
+   },
+   "bacteriosis": {
+    "probability": 0.223,
+    "risk": "Low"
+   },
+   "combined_risk": "Low"
+  },
+  {
+   "date": "2025-01-21",
+   "tmax": 23.7,
+   "tmin": 9.2,
+   "humidity": 60.4,
+   "wind_speed": 3.1,
+   "rainfall": 0.17,
+   "thi": 67.9,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.216,
+    "risk": "Low"
+   },
+   "bacteriosis": {
+    "probability": 0.229,
+    "risk": "Low"
+   },
+   "combined_risk": "Low"
+  },
+  {
+   "date": "2025-01-22",
+   "tmax": 23.6,
+   "tmin": 9.0,
+   "humidity": 58.0,
+   "wind_speed": 2.27,
+   "rainfall": 0.02,
+   "thi": 68.0,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.219,
+    "risk": "Low"
+   },
+   "bacteriosis": {
+    "probability": 0.23,
+    "risk": "Low"
+   },
+   "combined_risk": "Low"
+  },
+  {
+   "date": "2025-01-23",
+   "tmax": 24.0,
+   "tmin": 10.2,
+   "humidity": 59.6,
+   "wind_speed": 2.31,
+   "rainfall": 1.31,
+   "thi": 68.8,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.219,
+    "risk": "Low"
+   },
+   "bacteriosis": {
+    "probability": 0.235,
+    "risk": "Low"
+   },
+   "combined_risk": "Low"
+  },
+  {
+   "date": "2025-01-24",
+   "tmax": 24.3,
+   "tmin": 11.2,
+   "humidity": 60.0,
+   "wind_speed": 1.84,
+   "rainfall": 0.32,
+   "thi": 69.6,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.223,
+    "risk": "Low"
+   },
+   "bacteriosis": {
+    "probability": 0.237,
+    "risk": "Low"
+   },
+   "combined_risk": "Low"
+  },
+  {
+   "date": "2025-01-25",
+   "tmax": 23.2,
+   "tmin": 10.1,
+   "humidity": 61.5,
+   "wind_speed": 2.23,
+   "rainfall": 0.05,
+   "thi": 67.8,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.222,
+    "risk": "Low"
+   },
+   "bacteriosis": {
+    "probability": 0.238,
+    "risk": "Low"
+   },
+   "combined_risk": "Low"
+  },
+  {
+   "date": "2025-01-26",
+   "tmax": 22.6,
+   "tmin": 8.8,
+   "humidity": 58.0,
+   "wind_speed": 2.46,
+   "rainfall": 0.0,
+   "thi": 67.1,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.225,
+    "risk": "Low"
+   },
+   "bacteriosis": {
+    "probability": 0.239,
+    "risk": "Low"
+   },
+   "combined_risk": "Low"
+  },
+  {
+   "date": "2025-01-27",
+   "tmax": 23.1,
+   "tmin": 7.7,
+   "humidity": 57.9,
+   "wind_speed": 3.02,
+   "rainfall": 0.0,
+   "thi": 66.7,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.224,
+    "risk": "Low"
+   },
+   "bacteriosis": {
+    "probability": 0.243,
+    "risk": "Moderate"
+   },
+   "combined_risk": "Moderate"
+  },
+  {
+   "date": "2025-01-28",
+   "tmax": 23.1,
+   "tmin": 8.1,
+   "humidity": 54.7,
+   "wind_speed": 2.9,
+   "rainfall": 0.01,
+   "thi": 67.3,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.219,
+    "risk": "Low"
+   },
+   "bacteriosis": {
+    "probability": 0.245,
+    "risk": "Moderate"
+   },
+   "combined_risk": "Moderate"
+  },
+  {
+   "date": "2025-01-29",
+   "tmax": 24.2,
+   "tmin": 9.0,
+   "humidity": 48.5,
+   "wind_speed": 2.21,
+   "rainfall": 0.27,
+   "thi": 69.6,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.214,
+    "risk": "Low"
+   },
+   "bacteriosis": {
+    "probability": 0.244,
+    "risk": "Moderate"
+   },
+   "combined_risk": "Moderate"
+  },
+  {
+   "date": "2025-01-30",
+   "tmax": 24.9,
+   "tmin": 8.5,
+   "humidity": 50.4,
+   "wind_speed": 2.97,
+   "rainfall": 0.0,
+   "thi": 69.6,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.213,
+    "risk": "Low"
+   },
+   "bacteriosis": {
+    "probability": 0.241,
+    "risk": "Moderate"
+   },
+   "combined_risk": "Moderate"
+  },
+  {
+   "date": "2025-01-31",
+   "tmax": 24.5,
+   "tmin": 9.4,
+   "humidity": 50.3,
+   "wind_speed": 2.79,
+   "rainfall": 0.04,
+   "thi": 70.1,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.212,
+    "risk": "Low"
+   },
+   "bacteriosis": {
+    "probability": 0.246,
+    "risk": "Moderate"
+   },
+   "combined_risk": "Moderate"
+  },
+  {
+   "date": "2025-02-01",
+   "tmax": 24.7,
+   "tmin": 10.2,
+   "humidity": 52.2,
+   "wind_speed": 3.01,
+   "rainfall": 0.43,
+   "thi": 70.4,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.217,
+    "risk": "Low"
+   },
+   "bacteriosis": {
+    "probability": 0.252,
+    "risk": "Moderate"
+   },
+   "combined_risk": "Moderate"
+  },
+  {
+   "date": "2025-02-02",
+   "tmax": 25.6,
+   "tmin": 9.9,
+   "humidity": 51.2,
+   "wind_speed": 2.83,
+   "rainfall": 0.0,
+   "thi": 71.0,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.219,
+    "risk": "Low"
+   },
+   "bacteriosis": {
+    "probability": 0.261,
+    "risk": "Moderate"
+   },
+   "combined_risk": "Moderate"
+  },
+  {
+   "date": "2025-02-03",
+   "tmax": 25.7,
+   "tmin": 10.0,
+   "humidity": 49.1,
+   "wind_speed": 3.48,
+   "rainfall": 0.0,
+   "thi": 71.4,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.217,
+    "risk": "Low"
+   },
+   "bacteriosis": {
+    "probability": 0.259,
+    "risk": "Moderate"
+   },
+   "combined_risk": "Moderate"
+  },
+  {
+   "date": "2025-02-04",
+   "tmax": 25.8,
+   "tmin": 10.5,
+   "humidity": 53.0,
+   "wind_speed": 3.68,
+   "rainfall": 3.22,
+   "thi": 71.0,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.216,
+    "risk": "Low"
+   },
+   "bacteriosis": {
+    "probability": 0.261,
+    "risk": "Moderate"
+   },
+   "combined_risk": "Moderate"
+  },
+  {
+   "date": "2025-02-05",
+   "tmax": 26.2,
+   "tmin": 10.7,
+   "humidity": 52.8,
+   "wind_speed": 3.03,
+   "rainfall": 0.14,
+   "thi": 71.5,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.213,
+    "risk": "Low"
+   },
+   "bacteriosis": {
+    "probability": 0.265,
+    "risk": "Moderate"
+   },
+   "combined_risk": "Moderate"
+  },
+  {
+   "date": "2025-02-06",
+   "tmax": 25.0,
+   "tmin": 10.0,
+   "humidity": 56.9,
+   "wind_speed": 3.58,
+   "rainfall": 0.16,
+   "thi": 69.7,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.213,
+    "risk": "Low"
+   },
+   "bacteriosis": {
+    "probability": 0.271,
+    "risk": "High"
+   },
+   "combined_risk": "High"
+  },
+  {
+   "date": "2025-02-07",
+   "tmax": 25.0,
+   "tmin": 9.4,
+   "humidity": 48.6,
+   "wind_speed": 3.66,
+   "rainfall": 0.0,
+   "thi": 70.6,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.219,
+    "risk": "Low"
+   },
+   "bacteriosis": {
+    "probability": 0.269,
+    "risk": "High"
+   },
+   "combined_risk": "High"
+  },
+  {
+   "date": "2025-02-08",
+   "tmax": 24.4,
+   "tmin": 8.7,
+   "humidity": 44.6,
+   "wind_speed": 3.64,
+   "rainfall": 0.0,
+   "thi": 70.4,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.221,
+    "risk": "Low"
+   },
+   "bacteriosis": {
+    "probability": 0.269,
+    "risk": "High"
+   },
+   "combined_risk": "High"
+  },
+  {
+   "date": "2025-02-09",
+   "tmax": 26.0,
+   "tmin": 8.6,
+   "humidity": 44.5,
+   "wind_speed": 2.64,
+   "rainfall": 0.02,
+   "thi": 71.3,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.223,
+    "risk": "Low"
+   },
+   "bacteriosis": {
+    "probability": 0.269,
+    "risk": "High"
+   },
+   "combined_risk": "High"
+  },
+  {
+   "date": "2025-02-10",
+   "tmax": 26.5,
+   "tmin": 11.1,
+   "humidity": 44.4,
+   "wind_speed": 2.72,
+   "rainfall": 0.03,
+   "thi": 73.1,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.231,
+    "risk": "Low"
+   },
+   "bacteriosis": {
+    "probability": 0.271,
+    "risk": "High"
+   },
+   "combined_risk": "High"
+  },
+  {
+   "date": "2025-02-11",
+   "tmax": 26.8,
+   "tmin": 10.5,
+   "humidity": 44.5,
+   "wind_speed": 3.31,
+   "rainfall": 0.05,
+   "thi": 72.8,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.236,
+    "risk": "Moderate"
+   },
+   "bacteriosis": {
+    "probability": 0.268,
+    "risk": "High"
+   },
+   "combined_risk": "High"
+  },
+  {
+   "date": "2025-02-12",
+   "tmax": 27.0,
+   "tmin": 11.1,
+   "humidity": 45.4,
+   "wind_speed": 3.1,
+   "rainfall": 0.25,
+   "thi": 73.3,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.242,
+    "risk": "Moderate"
+   },
+   "bacteriosis": {
+    "probability": 0.27,
+    "risk": "High"
+   },
+   "combined_risk": "High"
+  },
+  {
+   "date": "2025-02-13",
+   "tmax": 25.8,
+   "tmin": 11.7,
+   "humidity": 46.1,
+   "wind_speed": 3.25,
+   "rainfall": 1.99,
+   "thi": 73.0,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.247,
+    "risk": "Moderate"
+   },
+   "bacteriosis": {
+    "probability": 0.271,
+    "risk": "High"
+   },
+   "combined_risk": "High"
+  },
+  {
+   "date": "2025-02-14",
+   "tmax": 26.5,
+   "tmin": 11.0,
+   "humidity": 44.9,
+   "wind_speed": 3.08,
+   "rainfall": 2.9,
+   "thi": 73.2,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.245,
+    "risk": "Moderate"
+   },
+   "bacteriosis": {
+    "probability": 0.274,
+    "risk": "High"
+   },
+   "combined_risk": "High"
+  },
+  {
+   "date": "2025-02-15",
+   "tmax": 26.5,
+   "tmin": 11.0,
+   "humidity": 47.0,
+   "wind_speed": 3.0,
+   "rainfall": 0.12,
+   "thi": 72.9,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.244,
+    "risk": "Moderate"
+   },
+   "bacteriosis": {
+    "probability": 0.276,
+    "risk": "High"
+   },
+   "combined_risk": "High"
+  },
+  {
+   "date": "2025-02-16",
+   "tmax": 27.4,
+   "tmin": 12.0,
+   "humidity": 47.9,
+   "wind_speed": 2.49,
+   "rainfall": 0.07,
+   "thi": 73.9,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.246,
+    "risk": "Moderate"
+   },
+   "bacteriosis": {
+    "probability": 0.276,
+    "risk": "High"
+   },
+   "combined_risk": "High"
+  },
+  {
+   "date": "2025-02-17",
+   "tmax": 27.0,
+   "tmin": 11.9,
+   "humidity": 49.5,
+   "wind_speed": 2.92,
+   "rainfall": 0.48,
+   "thi": 73.3,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.246,
+    "risk": "Moderate"
+   },
+   "bacteriosis": {
+    "probability": 0.279,
+    "risk": "High"
+   },
+   "combined_risk": "High"
+  },
+  {
+   "date": "2025-02-18",
+   "tmax": 27.1,
+   "tmin": 12.3,
+   "humidity": 48.9,
+   "wind_speed": 2.43,
+   "rainfall": 0.0,
+   "thi": 73.8,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.25,
+    "risk": "Moderate"
+   },
+   "bacteriosis": {
+    "probability": 0.289,
+    "risk": "High"
+   },
+   "combined_risk": "High"
+  },
+  {
+   "date": "2025-02-19",
+   "tmax": 27.9,
+   "tmin": 13.5,
+   "humidity": 49.7,
+   "wind_speed": 2.38,
+   "rainfall": 0.32,
+   "thi": 75.0,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.25,
+    "risk": "Moderate"
+   },
+   "bacteriosis": {
+    "probability": 0.293,
+    "risk": "Very High"
+   },
+   "combined_risk": "Very High"
+  },
+  {
+   "date": "2025-02-20",
+   "tmax": 27.7,
+   "tmin": 14.3,
+   "humidity": 52.2,
+   "wind_speed": 2.89,
+   "rainfall": 1.5,
+   "thi": 75.1,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.251,
+    "risk": "Moderate"
+   },
+   "bacteriosis": {
+    "probability": 0.296,
+    "risk": "Very High"
+   },
+   "combined_risk": "Very High"
+  },
+  {
+   "date": "2025-02-21",
+   "tmax": 29.2,
+   "tmin": 13.8,
+   "humidity": 44.4,
+   "wind_speed": 2.94,
+   "rainfall": 0.1,
+   "thi": 76.6,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.255,
+    "risk": "Moderate"
+   },
+   "bacteriosis": {
+    "probability": 0.3,
+    "risk": "Very High"
+   },
+   "combined_risk": "Very High"
+  },
+  {
+   "date": "2025-02-22",
+   "tmax": 29.2,
+   "tmin": 14.1,
+   "humidity": 41.8,
+   "wind_speed": 2.84,
+   "rainfall": 0.4,
+   "thi": 77.0,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.258,
+    "risk": "Moderate"
+   },
+   "bacteriosis": {
+    "probability": 0.303,
+    "risk": "Very High"
+   },
+   "combined_risk": "Very High"
+  },
+  {
+   "date": "2025-02-23",
+   "tmax": 28.7,
+   "tmin": 12.5,
+   "humidity": 45.5,
+   "wind_speed": 2.98,
+   "rainfall": 0.02,
+   "thi": 75.2,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.258,
+    "risk": "Moderate"
+   },
+   "bacteriosis": {
+    "probability": 0.309,
+    "risk": "Very High"
+   },
+   "combined_risk": "Very High"
+  },
+  {
+   "date": "2025-02-24",
+   "tmax": 29.1,
+   "tmin": 13.0,
+   "humidity": 46.0,
+   "wind_speed": 3.0,
+   "rainfall": 2.5,
+   "thi": 75.8,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.263,
+    "risk": "Moderate"
+   },
+   "bacteriosis": {
+    "probability": 0.317,
+    "risk": "Very High"
+   },
+   "combined_risk": "Very High"
+  },
+  {
+   "date": "2025-02-25",
+   "tmax": 29.0,
+   "tmin": 13.6,
+   "humidity": 44.2,
+   "wind_speed": 3.0,
+   "rainfall": 0.37,
+   "thi": 76.2,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.266,
+    "risk": "Moderate"
+   },
+   "bacteriosis": {
+    "probability": 0.316,
+    "risk": "Very High"
+   },
+   "combined_risk": "Very High"
+  },
+  {
+   "date": "2025-02-26",
+   "tmax": 29.5,
+   "tmin": 13.9,
+   "humidity": 44.9,
+   "wind_speed": 2.3,
+   "rainfall": 0.01,
+   "thi": 76.7,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.27,
+    "risk": "Moderate"
+   },
+   "bacteriosis": {
+    "probability": 0.316,
+    "risk": "Very High"
+   },
+   "combined_risk": "Very High"
+  },
+  {
+   "date": "2025-02-27",
+   "tmax": 29.7,
+   "tmin": 14.4,
+   "humidity": 46.2,
+   "wind_speed": 2.83,
+   "rainfall": 1.52,
+   "thi": 76.9,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.274,
+    "risk": "Moderate"
+   },
+   "bacteriosis": {
+    "probability": 0.32,
+    "risk": "Very High"
+   },
+   "combined_risk": "Very High"
+  },
+  {
+   "date": "2025-02-28",
+   "tmax": 30.4,
+   "tmin": 15.7,
+   "humidity": 45.8,
+   "wind_speed": 2.72,
+   "rainfall": 0.14,
+   "thi": 78.1,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.276,
+    "risk": "Moderate"
+   },
+   "bacteriosis": {
+    "probability": 0.321,
+    "risk": "Very High"
+   },
+   "combined_risk": "Very High"
+  },
+  {
+   "date": "2025-03-01",
+   "tmax": 31.0,
+   "tmin": 15.5,
+   "humidity": 41.5,
+   "wind_speed": 2.76,
+   "rainfall": 0.05,
+   "thi": 78.9,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.279,
+    "risk": "Moderate"
+   },
+   "bacteriosis": {
+    "probability": 0.324,
+    "risk": "Very High"
+   },
+   "combined_risk": "Very High"
+  },
+  {
+   "date": "2025-03-02",
+   "tmax": 30.9,
+   "tmin": 16.4,
+   "humidity": 39.1,
+   "wind_speed": 2.72,
+   "rainfall": 0.05,
+   "thi": 79.7,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.278,
+    "risk": "Moderate"
+   },
+   "bacteriosis": {
+    "probability": 0.324,
+    "risk": "Very High"
+   },
+   "combined_risk": "Very High"
+  },
+  {
+   "date": "2025-03-03",
+   "tmax": 30.8,
+   "tmin": 15.1,
+   "humidity": 37.5,
+   "wind_speed": 3.14,
+   "rainfall": 1.96,
+   "thi": 79.0,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.277,
+    "risk": "Moderate"
+   },
+   "bacteriosis": {
+    "probability": 0.319,
+    "risk": "Very High"
+   },
+   "combined_risk": "Very High"
+  },
+  {
+   "date": "2025-03-04",
+   "tmax": 31.0,
+   "tmin": 14.8,
+   "humidity": 39.7,
+   "wind_speed": 3.53,
+   "rainfall": 1.58,
+   "thi": 78.7,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.275,
+    "risk": "Moderate"
+   },
+   "bacteriosis": {
+    "probability": 0.319,
+    "risk": "Very High"
+   },
+   "combined_risk": "Very High"
+  },
+  {
+   "date": "2025-03-05",
+   "tmax": 30.7,
+   "tmin": 14.3,
+   "humidity": 36.3,
+   "wind_speed": 4.05,
+   "rainfall": 0.0,
+   "thi": 78.6,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.28,
+    "risk": "Moderate"
+   },
+   "bacteriosis": {
+    "probability": 0.324,
+    "risk": "Very High"
+   },
+   "combined_risk": "Very High"
+  },
+  {
+   "date": "2025-03-06",
+   "tmax": 30.4,
+   "tmin": 12.6,
+   "humidity": 33.3,
+   "wind_speed": 3.53,
+   "rainfall": 0.0,
+   "thi": 77.7,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.284,
+    "risk": "High"
+   },
+   "bacteriosis": {
+    "probability": 0.325,
+    "risk": "Very High"
+   },
+   "combined_risk": "Very High"
+  },
+  {
+   "date": "2025-03-07",
+   "tmax": 30.9,
+   "tmin": 14.7,
+   "humidity": 32.1,
+   "wind_speed": 2.79,
+   "rainfall": 0.09,
+   "thi": 79.3,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.287,
+    "risk": "High"
+   },
+   "bacteriosis": {
+    "probability": 0.323,
+    "risk": "Very High"
+   },
+   "combined_risk": "Very High"
+  },
+  {
+   "date": "2025-03-08",
+   "tmax": 31.3,
+   "tmin": 15.3,
+   "humidity": 32.9,
+   "wind_speed": 2.49,
+   "rainfall": 0.03,
+   "thi": 79.8,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.289,
+    "risk": "High"
+   },
+   "bacteriosis": {
+    "probability": 0.325,
+    "risk": "Very High"
+   },
+   "combined_risk": "Very High"
+  },
+  {
+   "date": "2025-03-09",
+   "tmax": 31.4,
+   "tmin": 14.9,
+   "humidity": 35.5,
+   "wind_speed": 2.88,
+   "rainfall": 0.0,
+   "thi": 79.3,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.288,
+    "risk": "High"
+   },
+   "bacteriosis": {
+    "probability": 0.323,
+    "risk": "Very High"
+   },
+   "combined_risk": "Very High"
+  },
+  {
+   "date": "2025-03-10",
+   "tmax": 31.8,
+   "tmin": 14.8,
+   "humidity": 38.2,
+   "wind_speed": 2.84,
+   "rainfall": 0.02,
+   "thi": 79.3,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.285,
+    "risk": "High"
+   },
+   "bacteriosis": {
+    "probability": 0.324,
+    "risk": "Very High"
+   },
+   "combined_risk": "Very High"
+  },
+  {
+   "date": "2025-03-11",
+   "tmax": 32.6,
+   "tmin": 17.0,
+   "humidity": 36.1,
+   "wind_speed": 2.41,
+   "rainfall": 0.15,
+   "thi": 81.2,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.283,
+    "risk": "High"
+   },
+   "bacteriosis": {
+    "probability": 0.32,
+    "risk": "Very High"
+   },
+   "combined_risk": "Very High"
+  },
+  {
+   "date": "2025-03-12",
+   "tmax": 33.1,
+   "tmin": 16.7,
+   "humidity": 41.0,
+   "wind_speed": 3.09,
+   "rainfall": 1.53,
+   "thi": 81.1,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.28,
+    "risk": "Moderate"
+   },
+   "bacteriosis": {
+    "probability": 0.316,
+    "risk": "Very High"
+   },
+   "combined_risk": "Very High"
+  },
+  {
+   "date": "2025-03-13",
+   "tmax": 32.6,
+   "tmin": 17.7,
+   "humidity": 39.0,
+   "wind_speed": 2.66,
+   "rainfall": 0.77,
+   "thi": 81.5,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.276,
+    "risk": "Moderate"
+   },
+   "bacteriosis": {
+    "probability": 0.307,
+    "risk": "Very High"
+   },
+   "combined_risk": "Very High"
+  },
+  {
+   "date": "2025-03-14",
+   "tmax": 33.4,
+   "tmin": 17.5,
+   "humidity": 34.8,
+   "wind_speed": 2.62,
+   "rainfall": 0.05,
+   "thi": 82.0,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.272,
+    "risk": "Moderate"
+   },
+   "bacteriosis": {
+    "probability": 0.301,
+    "risk": "Very High"
+   },
+   "combined_risk": "Very High"
+  },
+  {
+   "date": "2025-03-15",
+   "tmax": 34.0,
+   "tmin": 18.2,
+   "humidity": 33.1,
+   "wind_speed": 2.57,
+   "rainfall": 0.0,
+   "thi": 83.0,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.265,
+    "risk": "Moderate"
+   },
+   "bacteriosis": {
+    "probability": 0.297,
+    "risk": "Very High"
+   },
+   "combined_risk": "Very High"
+  },
+  {
+   "date": "2025-03-16",
+   "tmax": 33.4,
+   "tmin": 18.3,
+   "humidity": 39.4,
+   "wind_speed": 2.6,
+   "rainfall": 1.93,
+   "thi": 82.2,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.263,
+    "risk": "Moderate"
+   },
+   "bacteriosis": {
+    "probability": 0.293,
+    "risk": "Very High"
+   },
+   "combined_risk": "Very High"
+  },
+  {
+   "date": "2025-03-17",
+   "tmax": 32.5,
+   "tmin": 19.7,
+   "humidity": 44.7,
+   "wind_speed": 2.34,
+   "rainfall": 1.44,
+   "thi": 82.1,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.259,
+    "risk": "Moderate"
+   },
+   "bacteriosis": {
+    "probability": 0.284,
+    "risk": "High"
+   },
+   "combined_risk": "High"
+  },
+  {
+   "date": "2025-03-18",
+   "tmax": 31.9,
+   "tmin": 18.2,
+   "humidity": 47.4,
+   "wind_speed": 3.14,
+   "rainfall": 2.95,
+   "thi": 80.7,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.258,
+    "risk": "Moderate"
+   },
+   "bacteriosis": {
+    "probability": 0.28,
+    "risk": "High"
+   },
+   "combined_risk": "High"
+  },
+  {
+   "date": "2025-03-19",
+   "tmax": 31.9,
+   "tmin": 17.9,
+   "humidity": 46.3,
+   "wind_speed": 2.55,
+   "rainfall": 1.65,
+   "thi": 80.3,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.256,
+    "risk": "Moderate"
+   },
+   "bacteriosis": {
+    "probability": 0.276,
+    "risk": "High"
+   },
+   "combined_risk": "High"
+  },
+  {
+   "date": "2025-03-20",
+   "tmax": 31.3,
+   "tmin": 17.8,
+   "humidity": 52.6,
+   "wind_speed": 2.63,
+   "rainfall": 3.22,
+   "thi": 79.3,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.255,
+    "risk": "Moderate"
+   },
+   "bacteriosis": {
+    "probability": 0.28,
+    "risk": "High"
+   },
+   "combined_risk": "High"
+  },
+  {
+   "date": "2025-03-21",
+   "tmax": 31.3,
+   "tmin": 18.6,
+   "humidity": 53.4,
+   "wind_speed": 2.59,
+   "rainfall": 5.14,
+   "thi": 79.9,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.254,
+    "risk": "Moderate"
+   },
+   "bacteriosis": {
+    "probability": 0.284,
+    "risk": "High"
+   },
+   "combined_risk": "High"
+  },
+  {
+   "date": "2025-03-22",
+   "tmax": 32.0,
+   "tmin": 17.7,
+   "humidity": 50.0,
+   "wind_speed": 2.8,
+   "rainfall": 1.27,
+   "thi": 80.0,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.255,
+    "risk": "Moderate"
+   },
+   "bacteriosis": {
+    "probability": 0.279,
+    "risk": "High"
+   },
+   "combined_risk": "High"
+  },
+  {
+   "date": "2025-03-23",
+   "tmax": 33.2,
+   "tmin": 17.6,
+   "humidity": 41.8,
+   "wind_speed": 2.67,
+   "rainfall": 0.33,
+   "thi": 81.4,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.254,
+    "risk": "Moderate"
+   },
+   "bacteriosis": {
+    "probability": 0.277,
+    "risk": "High"
+   },
+   "combined_risk": "High"
+  },
+  {
+   "date": "2025-03-24",
+   "tmax": 33.3,
+   "tmin": 17.9,
+   "humidity": 39.8,
+   "wind_speed": 2.91,
+   "rainfall": 0.06,
+   "thi": 81.9,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.257,
+    "risk": "Moderate"
+   },
+   "bacteriosis": {
+    "probability": 0.282,
+    "risk": "High"
+   },
+   "combined_risk": "High"
+  },
+  {
+   "date": "2025-03-25",
+   "tmax": 34.2,
+   "tmin": 19.0,
+   "humidity": 36.5,
+   "wind_speed": 2.73,
+   "rainfall": 0.0,
+   "thi": 83.4,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.257,
+    "risk": "Moderate"
+   },
+   "bacteriosis": {
+    "probability": 0.287,
+    "risk": "High"
+   },
+   "combined_risk": "High"
+  },
+  {
+   "date": "2025-03-26",
+   "tmax": 34.1,
+   "tmin": 17.8,
+   "humidity": 36.2,
+   "wind_speed": 3.39,
+   "rainfall": 0.32,
+   "thi": 82.6,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.251,
+    "risk": "Moderate"
+   },
+   "bacteriosis": {
+    "probability": 0.287,
+    "risk": "High"
+   },
+   "combined_risk": "High"
+  },
+  {
+   "date": "2025-03-27",
+   "tmax": 34.8,
+   "tmin": 18.1,
+   "humidity": 32.6,
+   "wind_speed": 3.22,
+   "rainfall": 0.18,
+   "thi": 83.5,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.251,
+    "risk": "Moderate"
+   },
+   "bacteriosis": {
+    "probability": 0.284,
+    "risk": "High"
+   },
+   "combined_risk": "High"
+  },
+  {
+   "date": "2025-03-28",
+   "tmax": 35.5,
+   "tmin": 18.7,
+   "humidity": 31.3,
+   "wind_speed": 3.23,
+   "rainfall": 0.0,
+   "thi": 84.3,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.249,
+    "risk": "Moderate"
+   },
+   "bacteriosis": {
+    "probability": 0.283,
+    "risk": "High"
+   },
+   "combined_risk": "High"
+  },
+  {
+   "date": "2025-03-29",
+   "tmax": 36.1,
+   "tmin": 19.6,
+   "humidity": 32.5,
+   "wind_speed": 3.22,
+   "rainfall": 0.0,
+   "thi": 85.0,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.246,
+    "risk": "Moderate"
+   },
+   "bacteriosis": {
+    "probability": 0.283,
+    "risk": "High"
+   },
+   "combined_risk": "High"
+  },
+  {
+   "date": "2025-03-30",
+   "tmax": 37.0,
+   "tmin": 19.7,
+   "humidity": 29.5,
+   "wind_speed": 3.06,
+   "rainfall": 0.28,
+   "thi": 85.7,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.246,
+    "risk": "Moderate"
+   },
+   "bacteriosis": {
+    "probability": 0.281,
+    "risk": "High"
+   },
+   "combined_risk": "High"
+  },
+  {
+   "date": "2025-03-31",
+   "tmax": 36.2,
+   "tmin": 20.2,
+   "humidity": 33.7,
+   "wind_speed": 3.72,
+   "rainfall": 1.45,
+   "thi": 85.3,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.242,
+    "risk": "Moderate"
+   },
+   "bacteriosis": {
+    "probability": 0.275,
+    "risk": "High"
+   },
+   "combined_risk": "High"
+  },
+  {
+   "date": "2025-04-01",
+   "tmax": 35.8,
+   "tmin": 19.3,
+   "humidity": 35.0,
+   "wind_speed": 3.62,
+   "rainfall": 3.94,
+   "thi": 84.3,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.238,
+    "risk": "Moderate"
+   },
+   "bacteriosis": {
+    "probability": 0.266,
+    "risk": "Moderate"
+   },
+   "combined_risk": "Moderate"
+  },
+  {
+   "date": "2025-04-02",
+   "tmax": 35.3,
+   "tmin": 19.3,
+   "humidity": 29.6,
+   "wind_speed": 3.25,
+   "rainfall": 0.0,
+   "thi": 84.5,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.24,
+    "risk": "Moderate"
+   },
+   "bacteriosis": {
+    "probability": 0.263,
+    "risk": "Moderate"
+   },
+   "combined_risk": "Moderate"
+  },
+  {
+   "date": "2025-04-03",
+   "tmax": 36.2,
+   "tmin": 20.4,
+   "humidity": 29.6,
+   "wind_speed": 2.94,
+   "rainfall": 0.0,
+   "thi": 85.6,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.233,
+    "risk": "Low"
+   },
+   "bacteriosis": {
+    "probability": 0.257,
+    "risk": "Moderate"
+   },
+   "combined_risk": "Moderate"
+  },
+  {
+   "date": "2025-04-04",
+   "tmax": 36.9,
+   "tmin": 20.7,
+   "humidity": 28.6,
+   "wind_speed": 3.19,
+   "rainfall": 0.06,
+   "thi": 86.2,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.231,
+    "risk": "Low"
+   },
+   "bacteriosis": {
+    "probability": 0.252,
+    "risk": "Moderate"
+   },
+   "combined_risk": "Moderate"
+  },
+  {
+   "date": "2025-04-05",
+   "tmax": 36.5,
+   "tmin": 20.0,
+   "humidity": 26.6,
+   "wind_speed": 3.23,
+   "rainfall": 0.0,
+   "thi": 85.6,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.23,
+    "risk": "Low"
+   },
+   "bacteriosis": {
+    "probability": 0.25,
+    "risk": "Moderate"
+   },
+   "combined_risk": "Moderate"
+  },
+  {
+   "date": "2025-04-06",
+   "tmax": 37.6,
+   "tmin": 20.6,
+   "humidity": 27.3,
+   "wind_speed": 2.85,
+   "rainfall": 0.0,
+   "thi": 86.6,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.23,
+    "risk": "Low"
+   },
+   "bacteriosis": {
+    "probability": 0.247,
+    "risk": "Moderate"
+   },
+   "combined_risk": "Moderate"
+  },
+  {
+   "date": "2025-04-07",
+   "tmax": 37.5,
+   "tmin": 20.7,
+   "humidity": 30.3,
+   "wind_speed": 2.65,
+   "rainfall": 0.19,
+   "thi": 86.4,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.231,
+    "risk": "Low"
+   },
+   "bacteriosis": {
+    "probability": 0.247,
+    "risk": "Moderate"
+   },
+   "combined_risk": "Moderate"
+  },
+  {
+   "date": "2025-04-08",
+   "tmax": 36.9,
+   "tmin": 20.6,
+   "humidity": 36.4,
+   "wind_speed": 3.68,
+   "rainfall": 0.07,
+   "thi": 85.8,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.235,
+    "risk": "Low"
+   },
+   "bacteriosis": {
+    "probability": 0.249,
+    "risk": "Moderate"
+   },
+   "combined_risk": "Moderate"
+  },
+  {
+   "date": "2025-04-09",
+   "tmax": 36.5,
+   "tmin": 21.3,
+   "humidity": 35.9,
+   "wind_speed": 3.25,
+   "rainfall": 1.16,
+   "thi": 86.1,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.236,
+    "risk": "Moderate"
+   },
+   "bacteriosis": {
+    "probability": 0.249,
+    "risk": "Moderate"
+   },
+   "combined_risk": "Moderate"
+  },
+  {
+   "date": "2025-04-10",
+   "tmax": 36.5,
+   "tmin": 21.5,
+   "humidity": 36.4,
+   "wind_speed": 3.0,
+   "rainfall": 2.34,
+   "thi": 86.1,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.238,
+    "risk": "Moderate"
+   },
+   "bacteriosis": {
+    "probability": 0.251,
+    "risk": "Moderate"
+   },
+   "combined_risk": "Moderate"
+  },
+  {
+   "date": "2025-04-11",
+   "tmax": 36.2,
+   "tmin": 21.3,
+   "humidity": 34.5,
+   "wind_speed": 2.92,
+   "rainfall": 0.85,
+   "thi": 85.8,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.243,
+    "risk": "Moderate"
+   },
+   "bacteriosis": {
+    "probability": 0.247,
+    "risk": "Moderate"
+   },
+   "combined_risk": "Moderate"
+  },
+  {
+   "date": "2025-04-12",
+   "tmax": 37.3,
+   "tmin": 20.3,
+   "humidity": 35.8,
+   "wind_speed": 3.08,
+   "rainfall": 0.26,
+   "thi": 86.0,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.254,
+    "risk": "Moderate"
+   },
+   "bacteriosis": {
+    "probability": 0.247,
+    "risk": "Moderate"
+   },
+   "combined_risk": "Moderate"
+  },
+  {
+   "date": "2025-04-13",
+   "tmax": 37.8,
+   "tmin": 21.3,
+   "humidity": 34.3,
+   "wind_speed": 2.98,
+   "rainfall": 0.74,
+   "thi": 86.9,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.261,
+    "risk": "Moderate"
+   },
+   "bacteriosis": {
+    "probability": 0.243,
+    "risk": "Moderate"
+   },
+   "combined_risk": "Moderate"
+  },
+  {
+   "date": "2025-04-14",
+   "tmax": 37.8,
+   "tmin": 22.8,
+   "humidity": 30.6,
+   "wind_speed": 2.96,
+   "rainfall": 0.03,
+   "thi": 87.7,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.268,
+    "risk": "Moderate"
+   },
+   "bacteriosis": {
+    "probability": 0.242,
+    "risk": "Moderate"
+   },
+   "combined_risk": "Moderate"
+  },
+  {
+   "date": "2025-04-15",
+   "tmax": 37.4,
+   "tmin": 23.2,
+   "humidity": 31.8,
+   "wind_speed": 3.36,
+   "rainfall": 2.13,
+   "thi": 87.5,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.27,
+    "risk": "Moderate"
+   },
+   "bacteriosis": {
+    "probability": 0.238,
+    "risk": "Low"
+   },
+   "combined_risk": "Moderate"
+  },
+  {
+   "date": "2025-04-16",
+   "tmax": 37.9,
+   "tmin": 23.0,
+   "humidity": 29.8,
+   "wind_speed": 2.85,
+   "rainfall": 0.17,
+   "thi": 87.9,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.273,
+    "risk": "Moderate"
+   },
+   "bacteriosis": {
+    "probability": 0.237,
+    "risk": "Low"
+   },
+   "combined_risk": "Moderate"
+  },
+  {
+   "date": "2025-04-17",
+   "tmax": 38.5,
+   "tmin": 23.1,
+   "humidity": 32.8,
+   "wind_speed": 3.68,
+   "rainfall": 0.11,
+   "thi": 88.3,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.282,
+    "risk": "High"
+   },
+   "bacteriosis": {
+    "probability": 0.23,
+    "risk": "Low"
+   },
+   "combined_risk": "High"
+  },
+  {
+   "date": "2025-04-18",
+   "tmax": 38.8,
+   "tmin": 23.2,
+   "humidity": 28.3,
+   "wind_speed": 3.63,
+   "rainfall": 0.12,
+   "thi": 88.5,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.29,
+    "risk": "High"
+   },
+   "bacteriosis": {
+    "probability": 0.235,
+    "risk": "Low"
+   },
+   "combined_risk": "High"
+  },
+  {
+   "date": "2025-04-19",
+   "tmax": 39.3,
+   "tmin": 22.2,
+   "humidity": 29.1,
+   "wind_speed": 4.07,
+   "rainfall": 0.64,
+   "thi": 88.2,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.289,
+    "risk": "High"
+   },
+   "bacteriosis": {
+    "probability": 0.233,
+    "risk": "Low"
+   },
+   "combined_risk": "High"
+  },
+  {
+   "date": "2025-04-20",
+   "tmax": 40.0,
+   "tmin": 23.8,
+   "humidity": 25.9,
+   "wind_speed": 3.76,
+   "rainfall": 0.04,
+   "thi": 89.6,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.286,
+    "risk": "High"
+   },
+   "bacteriosis": {
+    "probability": 0.234,
+    "risk": "Low"
+   },
+   "combined_risk": "High"
+  },
+  {
+   "date": "2025-04-21",
+   "tmax": 38.8,
+   "tmin": 24.0,
+   "humidity": 29.8,
+   "wind_speed": 3.72,
+   "rainfall": 0.09,
+   "thi": 89.1,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.286,
+    "risk": "High"
+   },
+   "bacteriosis": {
+    "probability": 0.234,
+    "risk": "Low"
+   },
+   "combined_risk": "High"
+  },
+  {
+   "date": "2025-04-22",
+   "tmax": 37.4,
+   "tmin": 23.3,
+   "humidity": 30.4,
+   "wind_speed": 3.75,
+   "rainfall": 0.63,
+   "thi": 88.0,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.285,
+    "risk": "High"
+   },
+   "bacteriosis": {
+    "probability": 0.238,
+    "risk": "Low"
+   },
+   "combined_risk": "High"
+  },
+  {
+   "date": "2025-04-23",
+   "tmax": 38.2,
+   "tmin": 22.6,
+   "humidity": 27.9,
+   "wind_speed": 3.72,
+   "rainfall": 1.26,
+   "thi": 87.8,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.282,
+    "risk": "Moderate"
+   },
+   "bacteriosis": {
+    "probability": 0.231,
+    "risk": "Low"
+   },
+   "combined_risk": "Moderate"
+  },
+  {
+   "date": "2025-04-24",
+   "tmax": 38.0,
+   "tmin": 22.9,
+   "humidity": 24.3,
+   "wind_speed": 3.21,
+   "rainfall": 0.25,
+   "thi": 88.0,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.285,
+    "risk": "High"
+   },
+   "bacteriosis": {
+    "probability": 0.229,
+    "risk": "Low"
+   },
+   "combined_risk": "High"
+  },
+  {
+   "date": "2025-04-25",
+   "tmax": 38.5,
+   "tmin": 22.3,
+   "humidity": 24.4,
+   "wind_speed": 3.36,
+   "rainfall": 1.44,
+   "thi": 87.8,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.286,
+    "risk": "High"
+   },
+   "bacteriosis": {
+    "probability": 0.217,
+    "risk": "Low"
+   },
+   "combined_risk": "High"
+  },
+  {
+   "date": "2025-04-26",
+   "tmax": 38.8,
+   "tmin": 22.4,
+   "humidity": 22.6,
+   "wind_speed": 2.99,
+   "rainfall": 0.02,
+   "thi": 88.1,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.286,
+    "risk": "High"
+   },
+   "bacteriosis": {
+    "probability": 0.212,
+    "risk": "Low"
+   },
+   "combined_risk": "High"
+  },
+  {
+   "date": "2025-04-27",
+   "tmax": 38.6,
+   "tmin": 24.9,
+   "humidity": 25.1,
+   "wind_speed": 2.98,
+   "rainfall": 0.21,
+   "thi": 89.3,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.285,
+    "risk": "High"
+   },
+   "bacteriosis": {
+    "probability": 0.214,
+    "risk": "Low"
+   },
+   "combined_risk": "High"
+  },
+  {
+   "date": "2025-04-28",
+   "tmax": 38.4,
+   "tmin": 24.2,
+   "humidity": 26.6,
+   "wind_speed": 2.44,
+   "rainfall": 0.4,
+   "thi": 88.8,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.283,
+    "risk": "High"
+   },
+   "bacteriosis": {
+    "probability": 0.209,
+    "risk": "Low"
+   },
+   "combined_risk": "High"
+  },
+  {
+   "date": "2025-04-29",
+   "tmax": 38.4,
+   "tmin": 23.1,
+   "humidity": 32.9,
+   "wind_speed": 3.26,
+   "rainfall": 0.02,
+   "thi": 88.1,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.286,
+    "risk": "High"
+   },
+   "bacteriosis": {
+    "probability": 0.214,
+    "risk": "Low"
+   },
+   "combined_risk": "High"
+  },
+  {
+   "date": "2025-04-30",
+   "tmax": 38.8,
+   "tmin": 23.6,
+   "humidity": 33.9,
+   "wind_speed": 3.45,
+   "rainfall": 0.54,
+   "thi": 88.5,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.285,
+    "risk": "High"
+   },
+   "bacteriosis": {
+    "probability": 0.218,
+    "risk": "Low"
+   },
+   "combined_risk": "High"
+  },
+  {
+   "date": "2025-05-01",
+   "tmax": 36.5,
+   "tmin": 23.1,
+   "humidity": 41.3,
+   "wind_speed": 3.18,
+   "rainfall": 4.1,
+   "thi": 86.7,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.28,
+    "risk": "Moderate"
+   },
+   "bacteriosis": {
+    "probability": 0.218,
+    "risk": "Low"
+   },
+   "combined_risk": "Moderate"
+  },
+  {
+   "date": "2025-05-02",
+   "tmax": 36.1,
+   "tmin": 21.8,
+   "humidity": 42.0,
+   "wind_speed": 3.31,
+   "rainfall": 1.07,
+   "thi": 85.7,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.271,
+    "risk": "Moderate"
+   },
+   "bacteriosis": {
+    "probability": 0.225,
+    "risk": "Low"
+   },
+   "combined_risk": "Moderate"
+  },
+  {
+   "date": "2025-05-03",
+   "tmax": 36.7,
+   "tmin": 21.9,
+   "humidity": 39.4,
+   "wind_speed": 2.97,
+   "rainfall": 1.76,
+   "thi": 86.4,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.265,
+    "risk": "Moderate"
+   },
+   "bacteriosis": {
+    "probability": 0.23,
+    "risk": "Low"
+   },
+   "combined_risk": "Moderate"
+  },
+  {
+   "date": "2025-05-04",
+   "tmax": 37.0,
+   "tmin": 22.7,
+   "humidity": 39.4,
+   "wind_speed": 2.79,
+   "rainfall": 0.58,
+   "thi": 87.0,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.262,
+    "risk": "Moderate"
+   },
+   "bacteriosis": {
+    "probability": 0.231,
+    "risk": "Low"
+   },
+   "combined_risk": "Moderate"
+  },
+  {
+   "date": "2025-05-05",
+   "tmax": 36.3,
+   "tmin": 22.6,
+   "humidity": 41.3,
+   "wind_speed": 3.06,
+   "rainfall": 1.52,
+   "thi": 86.4,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.265,
+    "risk": "Moderate"
+   },
+   "bacteriosis": {
+    "probability": 0.236,
+    "risk": "Low"
+   },
+   "combined_risk": "Moderate"
+  },
+  {
+   "date": "2025-05-06",
+   "tmax": 36.9,
+   "tmin": 22.7,
+   "humidity": 40.1,
+   "wind_speed": 3.52,
+   "rainfall": 1.16,
+   "thi": 86.9,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.271,
+    "risk": "Moderate"
+   },
+   "bacteriosis": {
+    "probability": 0.229,
+    "risk": "Low"
+   },
+   "combined_risk": "Moderate"
+  },
+  {
+   "date": "2025-05-07",
+   "tmax": 37.1,
+   "tmin": 22.7,
+   "humidity": 41.3,
+   "wind_speed": 3.25,
+   "rainfall": 1.69,
+   "thi": 87.2,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.278,
+    "risk": "Moderate"
+   },
+   "bacteriosis": {
+    "probability": 0.23,
+    "risk": "Low"
+   },
+   "combined_risk": "Moderate"
+  },
+  {
+   "date": "2025-05-08",
+   "tmax": 37.7,
+   "tmin": 23.2,
+   "humidity": 39.5,
+   "wind_speed": 2.91,
+   "rainfall": 0.62,
+   "thi": 87.8,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.278,
+    "risk": "Moderate"
+   },
+   "bacteriosis": {
+    "probability": 0.234,
+    "risk": "Low"
+   },
+   "combined_risk": "Moderate"
+  },
+  {
+   "date": "2025-05-09",
+   "tmax": 37.4,
+   "tmin": 24.0,
+   "humidity": 42.7,
+   "wind_speed": 3.37,
+   "rainfall": 1.54,
+   "thi": 88.1,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.281,
+    "risk": "Moderate"
+   },
+   "bacteriosis": {
+    "probability": 0.238,
+    "risk": "Low"
+   },
+   "combined_risk": "Moderate"
+  },
+  {
+   "date": "2025-05-10",
+   "tmax": 37.3,
+   "tmin": 23.5,
+   "humidity": 43.0,
+   "wind_speed": 3.38,
+   "rainfall": 1.31,
+   "thi": 87.6,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.286,
+    "risk": "High"
+   },
+   "bacteriosis": {
+    "probability": 0.235,
+    "risk": "Low"
+   },
+   "combined_risk": "High"
+  },
+  {
+   "date": "2025-05-11",
+   "tmax": 37.4,
+   "tmin": 23.3,
+   "humidity": 41.8,
+   "wind_speed": 3.39,
+   "rainfall": 1.43,
+   "thi": 87.7,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.295,
+    "risk": "High"
+   },
+   "bacteriosis": {
+    "probability": 0.228,
+    "risk": "Low"
+   },
+   "combined_risk": "High"
+  },
+  {
+   "date": "2025-05-12",
+   "tmax": 37.8,
+   "tmin": 23.5,
+   "humidity": 41.2,
+   "wind_speed": 3.26,
+   "rainfall": 2.95,
+   "thi": 88.1,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.303,
+    "risk": "High"
+   },
+   "bacteriosis": {
+    "probability": 0.219,
+    "risk": "Low"
+   },
+   "combined_risk": "High"
+  },
+  {
+   "date": "2025-05-13",
+   "tmax": 38.5,
+   "tmin": 23.0,
+   "humidity": 40.7,
+   "wind_speed": 3.41,
+   "rainfall": 0.52,
+   "thi": 88.1,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.304,
+    "risk": "High"
+   },
+   "bacteriosis": {
+    "probability": 0.212,
+    "risk": "Low"
+   },
+   "combined_risk": "High"
+  },
+  {
+   "date": "2025-05-14",
+   "tmax": 39.0,
+   "tmin": 24.5,
+   "humidity": 36.5,
+   "wind_speed": 3.46,
+   "rainfall": 0.63,
+   "thi": 89.3,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.312,
+    "risk": "High"
+   },
+   "bacteriosis": {
+    "probability": 0.202,
+    "risk": "Low"
+   },
+   "combined_risk": "High"
+  },
+  {
+   "date": "2025-05-15",
+   "tmax": 39.3,
+   "tmin": 24.9,
+   "humidity": 34.1,
+   "wind_speed": 2.94,
+   "rainfall": 0.84,
+   "thi": 89.8,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.32,
+    "risk": "High"
+   },
+   "bacteriosis": {
+    "probability": 0.194,
+    "risk": "Low"
+   },
+   "combined_risk": "High"
+  },
+  {
+   "date": "2025-05-16",
+   "tmax": 40.2,
+   "tmin": 24.9,
+   "humidity": 35.5,
+   "wind_speed": 3.4,
+   "rainfall": 0.86,
+   "thi": 90.3,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.33,
+    "risk": "Very High"
+   },
+   "bacteriosis": {
+    "probability": 0.183,
+    "risk": "Low"
+   },
+   "combined_risk": "Very High"
+  },
+  {
+   "date": "2025-05-17",
+   "tmax": 39.4,
+   "tmin": 26.2,
+   "humidity": 36.5,
+   "wind_speed": 3.73,
+   "rainfall": 0.63,
+   "thi": 90.6,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.338,
+    "risk": "Very High"
+   },
+   "bacteriosis": {
+    "probability": 0.181,
+    "risk": "Low"
+   },
+   "combined_risk": "Very High"
+  },
+  {
+   "date": "2025-05-18",
+   "tmax": 39.8,
+   "tmin": 25.4,
+   "humidity": 38.5,
+   "wind_speed": 3.48,
+   "rainfall": 3.17,
+   "thi": 90.3,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.336,
+    "risk": "Very High"
+   },
+   "bacteriosis": {
+    "probability": 0.177,
+    "risk": "Low"
+   },
+   "combined_risk": "Very High"
+  },
+  {
+   "date": "2025-05-19",
+   "tmax": 38.1,
+   "tmin": 25.3,
+   "humidity": 43.9,
+   "wind_speed": 3.5,
+   "rainfall": 5.35,
+   "thi": 89.0,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.331,
+    "risk": "Very High"
+   },
+   "bacteriosis": {
+    "probability": 0.185,
+    "risk": "Low"
+   },
+   "combined_risk": "Very High"
+  },
+  {
+   "date": "2025-05-20",
+   "tmax": 38.8,
+   "tmin": 24.8,
+   "humidity": 46.4,
+   "wind_speed": 3.95,
+   "rainfall": 4.3,
+   "thi": 89.1,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.325,
+    "risk": "High"
+   },
+   "bacteriosis": {
+    "probability": 0.191,
+    "risk": "Low"
+   },
+   "combined_risk": "High"
+  },
+  {
+   "date": "2025-05-21",
+   "tmax": 38.1,
+   "tmin": 25.0,
+   "humidity": 48.3,
+   "wind_speed": 3.29,
+   "rainfall": 7.73,
+   "thi": 88.7,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.315,
+    "risk": "High"
+   },
+   "bacteriosis": {
+    "probability": 0.203,
+    "risk": "Low"
+   },
+   "combined_risk": "High"
+  },
+  {
+   "date": "2025-05-22",
+   "tmax": 37.7,
+   "tmin": 23.6,
+   "humidity": 45.1,
+   "wind_speed": 3.06,
+   "rainfall": 2.39,
+   "thi": 87.8,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.307,
+    "risk": "High"
+   },
+   "bacteriosis": {
+    "probability": 0.214,
+    "risk": "Low"
+   },
+   "combined_risk": "High"
+  },
+  {
+   "date": "2025-05-23",
+   "tmax": 36.5,
+   "tmin": 23.8,
+   "humidity": 48.0,
+   "wind_speed": 3.38,
+   "rainfall": 2.21,
+   "thi": 87.1,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.304,
+    "risk": "High"
+   },
+   "bacteriosis": {
+    "probability": 0.232,
+    "risk": "Low"
+   },
+   "combined_risk": "High"
+  },
+  {
+   "date": "2025-05-24",
+   "tmax": 36.2,
+   "tmin": 23.3,
+   "humidity": 51.5,
+   "wind_speed": 3.15,
+   "rainfall": 3.78,
+   "thi": 86.6,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.297,
+    "risk": "High"
+   },
+   "bacteriosis": {
+    "probability": 0.237,
+    "risk": "Low"
+   },
+   "combined_risk": "High"
+  },
+  {
+   "date": "2025-05-25",
+   "tmax": 35.5,
+   "tmin": 23.9,
+   "humidity": 53.2,
+   "wind_speed": 3.35,
+   "rainfall": 5.4,
+   "thi": 86.4,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.298,
+    "risk": "High"
+   },
+   "bacteriosis": {
+    "probability": 0.246,
+    "risk": "Moderate"
+   },
+   "combined_risk": "High"
+  },
+  {
+   "date": "2025-05-26",
+   "tmax": 34.3,
+   "tmin": 24.0,
+   "humidity": 60.4,
+   "wind_speed": 4.34,
+   "rainfall": 13.14,
+   "thi": 85.3,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.303,
+    "risk": "High"
+   },
+   "bacteriosis": {
+    "probability": 0.249,
+    "risk": "Moderate"
+   },
+   "combined_risk": "High"
+  },
+  {
+   "date": "2025-05-27",
+   "tmax": 34.4,
+   "tmin": 23.7,
+   "humidity": 62.1,
+   "wind_speed": 4.65,
+   "rainfall": 21.0,
+   "thi": 85.1,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.308,
+    "risk": "High"
+   },
+   "bacteriosis": {
+    "probability": 0.245,
+    "risk": "Moderate"
+   },
+   "combined_risk": "High"
+  },
+  {
+   "date": "2025-05-28",
+   "tmax": 36.1,
+   "tmin": 23.7,
+   "humidity": 54.9,
+   "wind_speed": 3.82,
+   "rainfall": 2.37,
+   "thi": 86.4,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.312,
+    "risk": "High"
+   },
+   "bacteriosis": {
+    "probability": 0.239,
+    "risk": "Low"
+   },
+   "combined_risk": "High"
+  },
+  {
+   "date": "2025-05-29",
+   "tmax": 37.5,
+   "tmin": 24.3,
+   "humidity": 50.6,
+   "wind_speed": 3.27,
+   "rainfall": 2.25,
+   "thi": 87.7,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.319,
+    "risk": "High"
+   },
+   "bacteriosis": {
+    "probability": 0.235,
+    "risk": "Low"
+   },
+   "combined_risk": "High"
+  },
+  {
+   "date": "2025-05-30",
+   "tmax": 38.2,
+   "tmin": 25.1,
+   "humidity": 50.7,
+   "wind_speed": 3.45,
+   "rainfall": 4.46,
+   "thi": 88.8,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.318,
+    "risk": "High"
+   },
+   "bacteriosis": {
+    "probability": 0.224,
+    "risk": "Low"
+   },
+   "combined_risk": "High"
+  },
+  {
+   "date": "2025-05-31",
+   "tmax": 38.2,
+   "tmin": 25.4,
+   "humidity": 47.2,
+   "wind_speed": 3.42,
+   "rainfall": 0.85,
+   "thi": 89.1,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.326,
+    "risk": "Very High"
+   },
+   "bacteriosis": {
+    "probability": 0.219,
+    "risk": "Low"
+   },
+   "combined_risk": "Very High"
+  },
+  {
+   "date": "2025-06-01",
+   "tmax": 37.9,
+   "tmin": 25.1,
+   "humidity": 47.2,
+   "wind_speed": 3.58,
+   "rainfall": 4.49,
+   "thi": 88.9,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.332,
+    "risk": "Very High"
+   },
+   "bacteriosis": {
+    "probability": 0.211,
+    "risk": "Low"
+   },
+   "combined_risk": "Very High"
+  },
+  {
+   "date": "2025-06-02",
+   "tmax": 37.8,
+   "tmin": 24.8,
+   "humidity": 46.5,
+   "wind_speed": 3.7,
+   "rainfall": 1.85,
+   "thi": 88.5,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.329,
+    "risk": "Very High"
+   },
+   "bacteriosis": {
+    "probability": 0.207,
+    "risk": "Low"
+   },
+   "combined_risk": "Very High"
+  },
+  {
+   "date": "2025-06-03",
+   "tmax": 37.6,
+   "tmin": 24.8,
+   "humidity": 45.8,
+   "wind_speed": 3.41,
+   "rainfall": 1.78,
+   "thi": 88.3,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.333,
+    "risk": "Very High"
+   },
+   "bacteriosis": {
+    "probability": 0.204,
+    "risk": "Low"
+   },
+   "combined_risk": "Very High"
+  },
+  {
+   "date": "2025-06-04",
+   "tmax": 38.4,
+   "tmin": 24.9,
+   "humidity": 45.5,
+   "wind_speed": 2.65,
+   "rainfall": 5.34,
+   "thi": 88.9,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.335,
+    "risk": "Very High"
+   },
+   "bacteriosis": {
+    "probability": 0.201,
+    "risk": "Low"
+   },
+   "combined_risk": "Very High"
+  },
+  {
+   "date": "2025-06-05",
+   "tmax": 37.6,
+   "tmin": 25.1,
+   "humidity": 46.9,
+   "wind_speed": 3.25,
+   "rainfall": 0.5,
+   "thi": 88.6,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.334,
+    "risk": "Very High"
+   },
+   "bacteriosis": {
+    "probability": 0.208,
+    "risk": "Low"
+   },
+   "combined_risk": "Very High"
+  },
+  {
+   "date": "2025-06-06",
+   "tmax": 38.1,
+   "tmin": 25.4,
+   "humidity": 43.4,
+   "wind_speed": 2.6,
+   "rainfall": 0.4,
+   "thi": 89.1,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.335,
+    "risk": "Very High"
+   },
+   "bacteriosis": {
+    "probability": 0.207,
+    "risk": "Low"
+   },
+   "combined_risk": "Very High"
+  },
+  {
+   "date": "2025-06-07",
+   "tmax": 38.7,
+   "tmin": 25.3,
+   "humidity": 40.2,
+   "wind_speed": 3.21,
+   "rainfall": 0.3,
+   "thi": 89.3,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.325,
+    "risk": "High"
+   },
+   "bacteriosis": {
+    "probability": 0.209,
+    "risk": "Low"
+   },
+   "combined_risk": "High"
+  },
+  {
+   "date": "2025-06-08",
+   "tmax": 39.0,
+   "tmin": 25.3,
+   "humidity": 39.7,
+   "wind_speed": 3.85,
+   "rainfall": 0.38,
+   "thi": 89.6,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.319,
+    "risk": "High"
+   },
+   "bacteriosis": {
+    "probability": 0.216,
+    "risk": "Low"
+   },
+   "combined_risk": "High"
+  },
+  {
+   "date": "2025-06-09",
+   "tmax": 38.2,
+   "tmin": 26.0,
+   "humidity": 43.4,
+   "wind_speed": 3.25,
+   "rainfall": 1.91,
+   "thi": 89.4,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.312,
+    "risk": "High"
+   },
+   "bacteriosis": {
+    "probability": 0.22,
+    "risk": "Low"
+   },
+   "combined_risk": "High"
+  },
+  {
+   "date": "2025-06-10",
+   "tmax": 37.6,
+   "tmin": 26.4,
+   "humidity": 48.3,
+   "wind_speed": 3.11,
+   "rainfall": 7.28,
+   "thi": 88.9,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.303,
+    "risk": "High"
+   },
+   "bacteriosis": {
+    "probability": 0.229,
+    "risk": "Low"
+   },
+   "combined_risk": "High"
+  },
+  {
+   "date": "2025-06-11",
+   "tmax": 38.1,
+   "tmin": 26.3,
+   "humidity": 45.4,
+   "wind_speed": 3.48,
+   "rainfall": 6.1,
+   "thi": 89.1,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.297,
+    "risk": "High"
+   },
+   "bacteriosis": {
+    "probability": 0.237,
+    "risk": "Low"
+   },
+   "combined_risk": "High"
+  },
+  {
+   "date": "2025-06-12",
+   "tmax": 38.1,
+   "tmin": 26.4,
+   "humidity": 46.8,
+   "wind_speed": 3.88,
+   "rainfall": 3.86,
+   "thi": 89.1,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.286,
+    "risk": "High"
+   },
+   "bacteriosis": {
+    "probability": 0.23,
+    "risk": "Low"
+   },
+   "combined_risk": "High"
+  },
+  {
+   "date": "2025-06-13",
+   "tmax": 38.6,
+   "tmin": 26.5,
+   "humidity": 47.6,
+   "wind_speed": 4.05,
+   "rainfall": 4.06,
+   "thi": 89.6,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.28,
+    "risk": "Moderate"
+   },
+   "bacteriosis": {
+    "probability": 0.232,
+    "risk": "Low"
+   },
+   "combined_risk": "Moderate"
+  },
+  {
+   "date": "2025-06-14",
+   "tmax": 38.3,
+   "tmin": 27.2,
+   "humidity": 48.0,
+   "wind_speed": 4.38,
+   "rainfall": 2.77,
+   "thi": 89.8,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.274,
+    "risk": "Moderate"
+   },
+   "bacteriosis": {
+    "probability": 0.221,
+    "risk": "Low"
+   },
+   "combined_risk": "Moderate"
+  },
+  {
+   "date": "2025-06-15",
+   "tmax": 36.0,
+   "tmin": 26.8,
+   "humidity": 55.5,
+   "wind_speed": 5.05,
+   "rainfall": 6.78,
+   "thi": 88.0,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.268,
+    "risk": "Moderate"
+   },
+   "bacteriosis": {
+    "probability": 0.22,
+    "risk": "Low"
+   },
+   "combined_risk": "Moderate"
+  },
+  {
+   "date": "2025-06-16",
+   "tmax": 36.6,
+   "tmin": 25.5,
+   "humidity": 57.3,
+   "wind_speed": 4.62,
+   "rainfall": 5.1,
+   "thi": 87.7,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.268,
+    "risk": "Moderate"
+   },
+   "bacteriosis": {
+    "probability": 0.224,
+    "risk": "Low"
+   },
+   "combined_risk": "Moderate"
+  },
+  {
+   "date": "2025-06-17",
+   "tmax": 34.4,
+   "tmin": 25.8,
+   "humidity": 61.6,
+   "wind_speed": 4.08,
+   "rainfall": 8.82,
+   "thi": 85.9,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.261,
+    "risk": "Moderate"
+   },
+   "bacteriosis": {
+    "probability": 0.229,
+    "risk": "Low"
+   },
+   "combined_risk": "Moderate"
+  },
+  {
+   "date": "2025-06-18",
+   "tmax": 34.4,
+   "tmin": 25.8,
+   "humidity": 64.2,
+   "wind_speed": 4.63,
+   "rainfall": 27.14,
+   "thi": 85.9,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.259,
+    "risk": "Moderate"
+   },
+   "bacteriosis": {
+    "probability": 0.228,
+    "risk": "Low"
+   },
+   "combined_risk": "Moderate"
+  },
+  {
+   "date": "2025-06-19",
+   "tmax": 33.0,
+   "tmin": 24.9,
+   "humidity": 69.3,
+   "wind_speed": 4.67,
+   "rainfall": 31.92,
+   "thi": 84.4,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.262,
+    "risk": "Moderate"
+   },
+   "bacteriosis": {
+    "probability": 0.239,
+    "risk": "Low"
+   },
+   "combined_risk": "Moderate"
+  },
+  {
+   "date": "2025-06-20",
+   "tmax": 31.7,
+   "tmin": 24.6,
+   "humidity": 74.4,
+   "wind_speed": 4.3,
+   "rainfall": 14.73,
+   "thi": 83.3,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.253,
+    "risk": "Moderate"
+   },
+   "bacteriosis": {
+    "probability": 0.233,
+    "risk": "Low"
+   },
+   "combined_risk": "Moderate"
+  },
+  {
+   "date": "2025-06-21",
+   "tmax": 32.0,
+   "tmin": 24.1,
+   "humidity": 74.9,
+   "wind_speed": 3.11,
+   "rainfall": 10.2,
+   "thi": 83.4,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.251,
+    "risk": "Moderate"
+   },
+   "bacteriosis": {
+    "probability": 0.242,
+    "risk": "Moderate"
+   },
+   "combined_risk": "Moderate"
+  },
+  {
+   "date": "2025-06-22",
+   "tmax": 32.3,
+   "tmin": 23.7,
+   "humidity": 74.5,
+   "wind_speed": 2.88,
+   "rainfall": 9.9,
+   "thi": 83.4,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.248,
+    "risk": "Moderate"
+   },
+   "bacteriosis": {
+    "probability": 0.242,
+    "risk": "Moderate"
+   },
+   "combined_risk": "Moderate"
+  },
+  {
+   "date": "2025-06-23",
+   "tmax": 32.7,
+   "tmin": 24.1,
+   "humidity": 75.5,
+   "wind_speed": 2.61,
+   "rainfall": 13.83,
+   "thi": 83.9,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.237,
+    "risk": "Moderate"
+   },
+   "bacteriosis": {
+    "probability": 0.243,
+    "risk": "Moderate"
+   },
+   "combined_risk": "Moderate"
+  },
+  {
+   "date": "2025-06-24",
+   "tmax": 32.4,
+   "tmin": 23.8,
+   "humidity": 75.8,
+   "wind_speed": 2.84,
+   "rainfall": 8.99,
+   "thi": 83.4,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.231,
+    "risk": "Low"
+   },
+   "bacteriosis": {
+    "probability": 0.238,
+    "risk": "Low"
+   },
+   "combined_risk": "Low"
+  },
+  {
+   "date": "2025-06-25",
+   "tmax": 32.4,
+   "tmin": 24.2,
+   "humidity": 77.6,
+   "wind_speed": 3.35,
+   "rainfall": 19.47,
+   "thi": 83.7,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.229,
+    "risk": "Low"
+   },
+   "bacteriosis": {
+    "probability": 0.244,
+    "risk": "Moderate"
+   },
+   "combined_risk": "Moderate"
+  },
+  {
+   "date": "2025-06-26",
+   "tmax": 30.9,
+   "tmin": 23.7,
+   "humidity": 80.4,
+   "wind_speed": 4.16,
+   "rainfall": 7.58,
+   "thi": 82.0,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.227,
+    "risk": "Low"
+   },
+   "bacteriosis": {
+    "probability": 0.237,
+    "risk": "Low"
+   },
+   "combined_risk": "Low"
+  },
+  {
+   "date": "2025-06-27",
+   "tmax": 31.4,
+   "tmin": 23.4,
+   "humidity": 78.8,
+   "wind_speed": 3.44,
+   "rainfall": 5.77,
+   "thi": 82.3,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.228,
+    "risk": "Low"
+   },
+   "bacteriosis": {
+    "probability": 0.25,
+    "risk": "Moderate"
+   },
+   "combined_risk": "Moderate"
+  },
+  {
+   "date": "2025-06-28",
+   "tmax": 31.4,
+   "tmin": 23.5,
+   "humidity": 79.0,
+   "wind_speed": 3.52,
+   "rainfall": 4.59,
+   "thi": 82.4,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.226,
+    "risk": "Low"
+   },
+   "bacteriosis": {
+    "probability": 0.265,
+    "risk": "Moderate"
+   },
+   "combined_risk": "Moderate"
+  },
+  {
+   "date": "2025-06-29",
+   "tmax": 31.1,
+   "tmin": 23.8,
+   "humidity": 80.8,
+   "wind_speed": 3.74,
+   "rainfall": 12.35,
+   "thi": 82.3,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.22,
+    "risk": "Low"
+   },
+   "bacteriosis": {
+    "probability": 0.265,
+    "risk": "Moderate"
+   },
+   "combined_risk": "Moderate"
+  },
+  {
+   "date": "2025-06-30",
+   "tmax": 31.4,
+   "tmin": 24.0,
+   "humidity": 80.8,
+   "wind_speed": 3.67,
+   "rainfall": 7.77,
+   "thi": 82.7,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.215,
+    "risk": "Low"
+   },
+   "bacteriosis": {
+    "probability": 0.258,
+    "risk": "Moderate"
+   },
+   "combined_risk": "Moderate"
+  },
+  {
+   "date": "2025-07-01",
+   "tmax": 31.0,
+   "tmin": 23.9,
+   "humidity": 80.8,
+   "wind_speed": 4.19,
+   "rainfall": 5.98,
+   "thi": 82.3,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.215,
+    "risk": "Low"
+   },
+   "bacteriosis": {
+    "probability": 0.265,
+    "risk": "Moderate"
+   },
+   "combined_risk": "Moderate"
+  },
+  {
+   "date": "2025-07-02",
+   "tmax": 30.7,
+   "tmin": 24.1,
+   "humidity": 81.7,
+   "wind_speed": 3.63,
+   "rainfall": 9.47,
+   "thi": 82.1,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.205,
+    "risk": "Low"
+   },
+   "bacteriosis": {
+    "probability": 0.266,
+    "risk": "Moderate"
+   },
+   "combined_risk": "Moderate"
+  },
+  {
+   "date": "2025-07-03",
+   "tmax": 30.4,
+   "tmin": 23.8,
+   "humidity": 83.0,
+   "wind_speed": 3.04,
+   "rainfall": 10.06,
+   "thi": 81.6,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.191,
+    "risk": "Low"
+   },
+   "bacteriosis": {
+    "probability": 0.266,
+    "risk": "Moderate"
+   },
+   "combined_risk": "Moderate"
+  },
+  {
+   "date": "2025-07-04",
+   "tmax": 31.0,
+   "tmin": 23.8,
+   "humidity": 81.5,
+   "wind_speed": 3.13,
+   "rainfall": 7.29,
+   "thi": 82.2,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.184,
+    "risk": "Low"
+   },
+   "bacteriosis": {
+    "probability": 0.281,
+    "risk": "High"
+   },
+   "combined_risk": "High"
+  },
+  {
+   "date": "2025-07-05",
+   "tmax": 31.1,
+   "tmin": 23.8,
+   "humidity": 80.9,
+   "wind_speed": 3.28,
+   "rainfall": 14.91,
+   "thi": 82.3,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.183,
+    "risk": "Low"
+   },
+   "bacteriosis": {
+    "probability": 0.279,
+    "risk": "High"
+   },
+   "combined_risk": "High"
+  },
+  {
+   "date": "2025-07-06",
+   "tmax": 30.3,
+   "tmin": 23.6,
+   "humidity": 83.7,
+   "wind_speed": 3.28,
+   "rainfall": 9.08,
+   "thi": 81.3,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.186,
+    "risk": "Low"
+   },
+   "bacteriosis": {
+    "probability": 0.287,
+    "risk": "High"
+   },
+   "combined_risk": "High"
+  },
+  {
+   "date": "2025-07-07",
+   "tmax": 30.3,
+   "tmin": 23.6,
+   "humidity": 83.5,
+   "wind_speed": 3.67,
+   "rainfall": 8.76,
+   "thi": 81.4,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.196,
+    "risk": "Low"
+   },
+   "bacteriosis": {
+    "probability": 0.29,
+    "risk": "Very High"
+   },
+   "combined_risk": "Very High"
+  },
+  {
+   "date": "2025-07-08",
+   "tmax": 31.2,
+   "tmin": 23.5,
+   "humidity": 82.1,
+   "wind_speed": 3.44,
+   "rainfall": 7.08,
+   "thi": 82.1,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.194,
+    "risk": "Low"
+   },
+   "bacteriosis": {
+    "probability": 0.283,
+    "risk": "High"
+   },
+   "combined_risk": "High"
+  },
+  {
+   "date": "2025-07-09",
+   "tmax": 31.6,
+   "tmin": 23.3,
+   "humidity": 80.6,
+   "wind_speed": 3.92,
+   "rainfall": 10.83,
+   "thi": 82.3,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.193,
+    "risk": "Low"
+   },
+   "bacteriosis": {
+    "probability": 0.282,
+    "risk": "High"
+   },
+   "combined_risk": "High"
+  },
+  {
+   "date": "2025-07-10",
+   "tmax": 30.9,
+   "tmin": 23.8,
+   "humidity": 82.4,
+   "wind_speed": 3.77,
+   "rainfall": 9.69,
+   "thi": 81.9,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.197,
+    "risk": "Low"
+   },
+   "bacteriosis": {
+    "probability": 0.28,
+    "risk": "High"
+   },
+   "combined_risk": "High"
+  },
+  {
+   "date": "2025-07-11",
+   "tmax": 30.3,
+   "tmin": 23.7,
+   "humidity": 83.6,
+   "wind_speed": 4.14,
+   "rainfall": 10.51,
+   "thi": 81.4,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.198,
+    "risk": "Low"
+   },
+   "bacteriosis": {
+    "probability": 0.271,
+    "risk": "High"
+   },
+   "combined_risk": "High"
+  },
+  {
+   "date": "2025-07-12",
+   "tmax": 31.0,
+   "tmin": 23.5,
+   "humidity": 83.4,
+   "wind_speed": 3.93,
+   "rainfall": 9.44,
+   "thi": 81.8,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.199,
+    "risk": "Low"
+   },
+   "bacteriosis": {
+    "probability": 0.268,
+    "risk": "High"
+   },
+   "combined_risk": "High"
+  },
+  {
+   "date": "2025-07-13",
+   "tmax": 30.5,
+   "tmin": 23.4,
+   "humidity": 83.4,
+   "wind_speed": 4.04,
+   "rainfall": 6.25,
+   "thi": 81.2,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.197,
+    "risk": "Low"
+   },
+   "bacteriosis": {
+    "probability": 0.272,
+    "risk": "High"
+   },
+   "combined_risk": "High"
+  },
+  {
+   "date": "2025-07-14",
+   "tmax": 30.2,
+   "tmin": 23.5,
+   "humidity": 84.2,
+   "wind_speed": 4.46,
+   "rainfall": 10.61,
+   "thi": 81.1,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.192,
+    "risk": "Low"
+   },
+   "bacteriosis": {
+    "probability": 0.282,
+    "risk": "High"
+   },
+   "combined_risk": "High"
+  },
+  {
+   "date": "2025-07-15",
+   "tmax": 30.1,
+   "tmin": 23.2,
+   "humidity": 84.5,
+   "wind_speed": 4.21,
+   "rainfall": 16.1,
+   "thi": 80.8,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.186,
+    "risk": "Low"
+   },
+   "bacteriosis": {
+    "probability": 0.291,
+    "risk": "Very High"
+   },
+   "combined_risk": "Very High"
+  },
+  {
+   "date": "2025-07-16",
+   "tmax": 30.3,
+   "tmin": 23.4,
+   "humidity": 84.5,
+   "wind_speed": 4.14,
+   "rainfall": 9.07,
+   "thi": 81.0,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.196,
+    "risk": "Low"
+   },
+   "bacteriosis": {
+    "probability": 0.297,
+    "risk": "Very High"
+   },
+   "combined_risk": "Very High"
+  },
+  {
+   "date": "2025-07-17",
+   "tmax": 30.6,
+   "tmin": 23.8,
+   "humidity": 85.8,
+   "wind_speed": 4.42,
+   "rainfall": 5.79,
+   "thi": 81.6,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.197,
+    "risk": "Low"
+   },
+   "bacteriosis": {
+    "probability": 0.296,
+    "risk": "Very High"
+   },
+   "combined_risk": "Very High"
+  },
+  {
+   "date": "2025-07-18",
+   "tmax": 30.5,
+   "tmin": 23.4,
+   "humidity": 83.6,
+   "wind_speed": 3.64,
+   "rainfall": 5.56,
+   "thi": 81.4,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.187,
+    "risk": "Low"
+   },
+   "bacteriosis": {
+    "probability": 0.289,
+    "risk": "High"
+   },
+   "combined_risk": "High"
+  },
+  {
+   "date": "2025-07-19",
+   "tmax": 31.2,
+   "tmin": 23.5,
+   "humidity": 83.0,
+   "wind_speed": 3.96,
+   "rainfall": 2.32,
+   "thi": 82.1,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.184,
+    "risk": "Low"
+   },
+   "bacteriosis": {
+    "probability": 0.291,
+    "risk": "Very High"
+   },
+   "combined_risk": "Very High"
+  },
+  {
+   "date": "2025-07-20",
+   "tmax": 30.1,
+   "tmin": 23.6,
+   "humidity": 84.5,
+   "wind_speed": 3.81,
+   "rainfall": 7.58,
+   "thi": 81.0,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.18,
+    "risk": "Low"
+   },
+   "bacteriosis": {
+    "probability": 0.299,
+    "risk": "Very High"
+   },
+   "combined_risk": "Very High"
+  },
+  {
+   "date": "2025-07-21",
+   "tmax": 29.8,
+   "tmin": 23.6,
+   "humidity": 87.0,
+   "wind_speed": 3.41,
+   "rainfall": 10.98,
+   "thi": 80.8,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.179,
+    "risk": "Low"
+   },
+   "bacteriosis": {
+    "probability": 0.285,
+    "risk": "High"
+   },
+   "combined_risk": "High"
+  },
+  {
+   "date": "2025-07-22",
+   "tmax": 30.7,
+   "tmin": 24.0,
+   "humidity": 86.2,
+   "wind_speed": 3.79,
+   "rainfall": 5.53,
+   "thi": 81.8,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.181,
+    "risk": "Low"
+   },
+   "bacteriosis": {
+    "probability": 0.268,
+    "risk": "High"
+   },
+   "combined_risk": "High"
+  },
+  {
+   "date": "2025-07-23",
+   "tmax": 30.4,
+   "tmin": 23.9,
+   "humidity": 86.3,
+   "wind_speed": 3.93,
+   "rainfall": 6.98,
+   "thi": 81.5,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.164,
+    "risk": "Low"
+   },
+   "bacteriosis": {
+    "probability": 0.266,
+    "risk": "Moderate"
+   },
+   "combined_risk": "Moderate"
+  },
+  {
+   "date": "2025-07-24",
+   "tmax": 30.3,
+   "tmin": 23.9,
+   "humidity": 85.3,
+   "wind_speed": 3.49,
+   "rainfall": 9.24,
+   "thi": 81.5,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.155,
+    "risk": "Low"
+   },
+   "bacteriosis": {
+    "probability": 0.27,
+    "risk": "High"
+   },
+   "combined_risk": "High"
+  },
+  {
+   "date": "2025-07-25",
+   "tmax": 30.2,
+   "tmin": 23.5,
+   "humidity": 85.2,
+   "wind_speed": 3.35,
+   "rainfall": 11.51,
+   "thi": 81.0,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.16,
+    "risk": "Low"
+   },
+   "bacteriosis": {
+    "probability": 0.273,
+    "risk": "High"
+   },
+   "combined_risk": "High"
+  },
+  {
+   "date": "2025-07-26",
+   "tmax": 29.9,
+   "tmin": 23.7,
+   "humidity": 86.1,
+   "wind_speed": 3.85,
+   "rainfall": 8.89,
+   "thi": 81.0,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.16,
+    "risk": "Low"
+   },
+   "bacteriosis": {
+    "probability": 0.261,
+    "risk": "Moderate"
+   },
+   "combined_risk": "Moderate"
+  },
+  {
+   "date": "2025-07-27",
+   "tmax": 30.6,
+   "tmin": 23.6,
+   "humidity": 85.0,
+   "wind_speed": 4.0,
+   "rainfall": 6.8,
+   "thi": 81.5,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.157,
+    "risk": "Low"
+   },
+   "bacteriosis": {
+    "probability": 0.247,
+    "risk": "Moderate"
+   },
+   "combined_risk": "Moderate"
+  },
+  {
+   "date": "2025-07-28",
+   "tmax": 30.4,
+   "tmin": 23.7,
+   "humidity": 84.6,
+   "wind_speed": 3.63,
+   "rainfall": 6.64,
+   "thi": 81.4,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.149,
+    "risk": "Low"
+   },
+   "bacteriosis": {
+    "probability": 0.265,
+    "risk": "Moderate"
+   },
+   "combined_risk": "Moderate"
+  },
+  {
+   "date": "2025-07-29",
+   "tmax": 30.7,
+   "tmin": 23.7,
+   "humidity": 84.6,
+   "wind_speed": 2.69,
+   "rainfall": 9.16,
+   "thi": 81.6,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.144,
+    "risk": "Low"
+   },
+   "bacteriosis": {
+    "probability": 0.272,
+    "risk": "High"
+   },
+   "combined_risk": "High"
+  },
+  {
+   "date": "2025-07-30",
+   "tmax": 29.6,
+   "tmin": 23.7,
+   "humidity": 86.9,
+   "wind_speed": 3.87,
+   "rainfall": 20.84,
+   "thi": 80.6,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.141,
+    "risk": "Low"
+   },
+   "bacteriosis": {
+    "probability": 0.267,
+    "risk": "Moderate"
+   },
+   "combined_risk": "Moderate"
+  },
+  {
+   "date": "2025-07-31",
+   "tmax": 29.4,
+   "tmin": 23.6,
+   "humidity": 87.7,
+   "wind_speed": 3.42,
+   "rainfall": 31.55,
+   "thi": 80.4,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.136,
+    "risk": "Low"
+   },
+   "bacteriosis": {
+    "probability": 0.272,
+    "risk": "High"
+   },
+   "combined_risk": "High"
+  },
+  {
+   "date": "2025-08-01",
+   "tmax": 29.9,
+   "tmin": 23.5,
+   "humidity": 86.8,
+   "wind_speed": 2.94,
+   "rainfall": 14.8,
+   "thi": 80.8,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.132,
+    "risk": "Low"
+   },
+   "bacteriosis": {
+    "probability": 0.264,
+    "risk": "Moderate"
+   },
+   "combined_risk": "Moderate"
+  },
+  {
+   "date": "2025-08-02",
+   "tmax": 28.9,
+   "tmin": 23.6,
+   "humidity": 89.5,
+   "wind_speed": 3.97,
+   "rainfall": 29.36,
+   "thi": 79.8,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.132,
+    "risk": "Low"
+   },
+   "bacteriosis": {
+    "probability": 0.273,
+    "risk": "High"
+   },
+   "combined_risk": "High"
+  },
+  {
+   "date": "2025-08-03",
+   "tmax": 29.2,
+   "tmin": 23.3,
+   "humidity": 89.1,
+   "wind_speed": 4.05,
+   "rainfall": 15.19,
+   "thi": 79.8,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.121,
+    "risk": "Low"
+   },
+   "bacteriosis": {
+    "probability": 0.27,
+    "risk": "High"
+   },
+   "combined_risk": "High"
+  },
+  {
+   "date": "2025-08-04",
+   "tmax": 28.8,
+   "tmin": 22.8,
+   "humidity": 87.8,
+   "wind_speed": 4.5,
+   "rainfall": 6.37,
+   "thi": 79.2,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.113,
+    "risk": "Low"
+   },
+   "bacteriosis": {
+    "probability": 0.253,
+    "risk": "Moderate"
+   },
+   "combined_risk": "Moderate"
+  },
+  {
+   "date": "2025-08-05",
+   "tmax": 29.5,
+   "tmin": 22.7,
+   "humidity": 85.9,
+   "wind_speed": 3.05,
+   "rainfall": 5.24,
+   "thi": 79.8,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.108,
+    "risk": "Low"
+   },
+   "bacteriosis": {
+    "probability": 0.257,
+    "risk": "Moderate"
+   },
+   "combined_risk": "Moderate"
+  },
+  {
+   "date": "2025-08-06",
+   "tmax": 29.6,
+   "tmin": 22.9,
+   "humidity": 87.8,
+   "wind_speed": 2.98,
+   "rainfall": 9.73,
+   "thi": 79.9,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.111,
+    "risk": "Low"
+   },
+   "bacteriosis": {
+    "probability": 0.263,
+    "risk": "Moderate"
+   },
+   "combined_risk": "Moderate"
+  },
+  {
+   "date": "2025-08-07",
+   "tmax": 29.1,
+   "tmin": 23.1,
+   "humidity": 87.9,
+   "wind_speed": 3.49,
+   "rainfall": 14.84,
+   "thi": 79.7,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.112,
+    "risk": "Low"
+   },
+   "bacteriosis": {
+    "probability": 0.259,
+    "risk": "Moderate"
+   },
+   "combined_risk": "Moderate"
+  },
+  {
+   "date": "2025-08-08",
+   "tmax": 28.9,
+   "tmin": 23.1,
+   "humidity": 89.1,
+   "wind_speed": 3.95,
+   "rainfall": 13.46,
+   "thi": 79.4,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.109,
+    "risk": "Low"
+   },
+   "bacteriosis": {
+    "probability": 0.266,
+    "risk": "Moderate"
+   },
+   "combined_risk": "Moderate"
+  },
+  {
+   "date": "2025-08-09",
+   "tmax": 28.9,
+   "tmin": 22.9,
+   "humidity": 88.6,
+   "wind_speed": 4.9,
+   "rainfall": 6.58,
+   "thi": 79.3,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.1,
+    "risk": "Low"
+   },
+   "bacteriosis": {
+    "probability": 0.257,
+    "risk": "Moderate"
+   },
+   "combined_risk": "Moderate"
+  },
+  {
+   "date": "2025-08-10",
+   "tmax": 28.6,
+   "tmin": 22.7,
+   "humidity": 88.9,
+   "wind_speed": 4.3,
+   "rainfall": 11.18,
+   "thi": 78.9,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.094,
+    "risk": "Low"
+   },
+   "bacteriosis": {
+    "probability": 0.254,
+    "risk": "Moderate"
+   },
+   "combined_risk": "Moderate"
+  },
+  {
+   "date": "2025-08-11",
+   "tmax": 28.6,
+   "tmin": 22.7,
+   "humidity": 88.8,
+   "wind_speed": 3.36,
+   "rainfall": 16.19,
+   "thi": 78.8,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.098,
+    "risk": "Low"
+   },
+   "bacteriosis": {
+    "probability": 0.254,
+    "risk": "Moderate"
+   },
+   "combined_risk": "Moderate"
+  },
+  {
+   "date": "2025-08-12",
+   "tmax": 28.8,
+   "tmin": 23.1,
+   "humidity": 88.1,
+   "wind_speed": 2.81,
+   "rainfall": 12.33,
+   "thi": 79.4,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.1,
+    "risk": "Low"
+   },
+   "bacteriosis": {
+    "probability": 0.259,
+    "risk": "Moderate"
+   },
+   "combined_risk": "Moderate"
+  },
+  {
+   "date": "2025-08-13",
+   "tmax": 29.1,
+   "tmin": 23.0,
+   "humidity": 88.2,
+   "wind_speed": 2.59,
+   "rainfall": 14.23,
+   "thi": 79.6,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.092,
+    "risk": "Low"
+   },
+   "bacteriosis": {
+    "probability": 0.248,
+    "risk": "Moderate"
+   },
+   "combined_risk": "Moderate"
+  },
+  {
+   "date": "2025-08-14",
+   "tmax": 29.1,
+   "tmin": 23.0,
+   "humidity": 88.4,
+   "wind_speed": 3.45,
+   "rainfall": 13.12,
+   "thi": 79.7,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.096,
+    "risk": "Low"
+   },
+   "bacteriosis": {
+    "probability": 0.255,
+    "risk": "Moderate"
+   },
+   "combined_risk": "Moderate"
+  },
+  {
+   "date": "2025-08-15",
+   "tmax": 28.5,
+   "tmin": 22.8,
+   "humidity": 88.4,
+   "wind_speed": 3.39,
+   "rainfall": 13.6,
+   "thi": 78.9,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.085,
+    "risk": "Low"
+   },
+   "bacteriosis": {
+    "probability": 0.251,
+    "risk": "Moderate"
+   },
+   "combined_risk": "Moderate"
+  },
+  {
+   "date": "2025-08-16",
+   "tmax": 29.4,
+   "tmin": 22.7,
+   "humidity": 87.1,
+   "wind_speed": 2.76,
+   "rainfall": 5.67,
+   "thi": 79.6,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.083,
+    "risk": "Low"
+   },
+   "bacteriosis": {
+    "probability": 0.282,
+    "risk": "High"
+   },
+   "combined_risk": "High"
+  },
+  {
+   "date": "2025-08-17",
+   "tmax": 29.3,
+   "tmin": 22.8,
+   "humidity": 86.9,
+   "wind_speed": 2.48,
+   "rainfall": 6.2,
+   "thi": 79.7,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.092,
+    "risk": "Low"
+   },
+   "bacteriosis": {
+    "probability": 0.296,
+    "risk": "Very High"
+   },
+   "combined_risk": "Very High"
+  },
+  {
+   "date": "2025-08-18",
+   "tmax": 29.0,
+   "tmin": 23.2,
+   "humidity": 88.7,
+   "wind_speed": 3.6,
+   "rainfall": 12.08,
+   "thi": 79.6,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.089,
+    "risk": "Low"
+   },
+   "bacteriosis": {
+    "probability": 0.314,
+    "risk": "Very High"
+   },
+   "combined_risk": "Very High"
+  },
+  {
+   "date": "2025-08-19",
+   "tmax": 29.0,
+   "tmin": 23.3,
+   "humidity": 90.6,
+   "wind_speed": 4.76,
+   "rainfall": 16.37,
+   "thi": 79.6,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.091,
+    "risk": "Low"
+   },
+   "bacteriosis": {
+    "probability": 0.299,
+    "risk": "Very High"
+   },
+   "combined_risk": "Very High"
+  },
+  {
+   "date": "2025-08-20",
+   "tmax": 28.2,
+   "tmin": 23.1,
+   "humidity": 91.1,
+   "wind_speed": 4.78,
+   "rainfall": 15.66,
+   "thi": 78.7,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.095,
+    "risk": "Low"
+   },
+   "bacteriosis": {
+    "probability": 0.286,
+    "risk": "High"
+   },
+   "combined_risk": "High"
+  },
+  {
+   "date": "2025-08-21",
+   "tmax": 29.1,
+   "tmin": 23.0,
+   "humidity": 88.9,
+   "wind_speed": 3.7,
+   "rainfall": 7.27,
+   "thi": 79.6,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.091,
+    "risk": "Low"
+   },
+   "bacteriosis": {
+    "probability": 0.281,
+    "risk": "High"
+   },
+   "combined_risk": "High"
+  },
+  {
+   "date": "2025-08-22",
+   "tmax": 28.1,
+   "tmin": 22.9,
+   "humidity": 90.2,
+   "wind_speed": 3.06,
+   "rainfall": 12.2,
+   "thi": 78.5,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.111,
+    "risk": "Low"
+   },
+   "bacteriosis": {
+    "probability": 0.283,
+    "risk": "High"
+   },
+   "combined_risk": "High"
+  },
+  {
+   "date": "2025-08-23",
+   "tmax": 28.4,
+   "tmin": 22.5,
+   "humidity": 90.2,
+   "wind_speed": 3.04,
+   "rainfall": 20.83,
+   "thi": 78.4,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.12,
+    "risk": "Low"
+   },
+   "bacteriosis": {
+    "probability": 0.257,
+    "risk": "Moderate"
+   },
+   "combined_risk": "Moderate"
+  },
+  {
+   "date": "2025-08-24",
+   "tmax": 28.3,
+   "tmin": 22.8,
+   "humidity": 90.1,
+   "wind_speed": 3.31,
+   "rainfall": 12.15,
+   "thi": 78.6,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.126,
+    "risk": "Low"
+   },
+   "bacteriosis": {
+    "probability": 0.248,
+    "risk": "Moderate"
+   },
+   "combined_risk": "Moderate"
+  },
+  {
+   "date": "2025-08-25",
+   "tmax": 28.7,
+   "tmin": 22.7,
+   "humidity": 88.6,
+   "wind_speed": 3.06,
+   "rainfall": 4.12,
+   "thi": 79.0,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.133,
+    "risk": "Low"
+   },
+   "bacteriosis": {
+    "probability": 0.221,
+    "risk": "Low"
+   },
+   "combined_risk": "Low"
+  },
+  {
+   "date": "2025-08-26",
+   "tmax": 28.9,
+   "tmin": 22.6,
+   "humidity": 87.9,
+   "wind_speed": 2.71,
+   "rainfall": 6.26,
+   "thi": 79.1,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.142,
+    "risk": "Low"
+   },
+   "bacteriosis": {
+    "probability": 0.234,
+    "risk": "Low"
+   },
+   "combined_risk": "Low"
+  },
+  {
+   "date": "2025-08-27",
+   "tmax": 28.8,
+   "tmin": 22.6,
+   "humidity": 88.9,
+   "wind_speed": 2.62,
+   "rainfall": 5.5,
+   "thi": 78.9,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.143,
+    "risk": "Low"
+   },
+   "bacteriosis": {
+    "probability": 0.248,
+    "risk": "Moderate"
+   },
+   "combined_risk": "Moderate"
+  },
+  {
+   "date": "2025-08-28",
+   "tmax": 28.2,
+   "tmin": 22.5,
+   "humidity": 89.3,
+   "wind_speed": 2.9,
+   "rainfall": 6.05,
+   "thi": 78.4,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.144,
+    "risk": "Low"
+   },
+   "bacteriosis": {
+    "probability": 0.248,
+    "risk": "Moderate"
+   },
+   "combined_risk": "Moderate"
+  },
+  {
+   "date": "2025-08-29",
+   "tmax": 28.7,
+   "tmin": 22.4,
+   "humidity": 87.4,
+   "wind_speed": 2.96,
+   "rainfall": 6.23,
+   "thi": 78.9,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.143,
+    "risk": "Low"
+   },
+   "bacteriosis": {
+    "probability": 0.252,
+    "risk": "Moderate"
+   },
+   "combined_risk": "Moderate"
+  },
+  {
+   "date": "2025-08-30",
+   "tmax": 29.0,
+   "tmin": 22.4,
+   "humidity": 87.8,
+   "wind_speed": 2.81,
+   "rainfall": 1.91,
+   "thi": 79.0,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.131,
+    "risk": "Low"
+   },
+   "bacteriosis": {
+    "probability": 0.251,
+    "risk": "Moderate"
+   },
+   "combined_risk": "Moderate"
+  },
+  {
+   "date": "2025-08-31",
+   "tmax": 29.1,
+   "tmin": 22.7,
+   "humidity": 88.1,
+   "wind_speed": 2.58,
+   "rainfall": 4.56,
+   "thi": 79.3,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.13,
+    "risk": "Low"
+   },
+   "bacteriosis": {
+    "probability": 0.257,
+    "risk": "Moderate"
+   },
+   "combined_risk": "Moderate"
+  },
+  {
+   "date": "2025-09-01",
+   "tmax": 29.3,
+   "tmin": 22.6,
+   "humidity": 87.5,
+   "wind_speed": 2.96,
+   "rainfall": 2.81,
+   "thi": 79.5,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.129,
+    "risk": "Low"
+   },
+   "bacteriosis": {
+    "probability": 0.278,
+    "risk": "High"
+   },
+   "combined_risk": "High"
+  },
+  {
+   "date": "2025-09-02",
+   "tmax": 28.9,
+   "tmin": 22.9,
+   "humidity": 88.7,
+   "wind_speed": 3.16,
+   "rainfall": 11.07,
+   "thi": 79.3,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.11,
+    "risk": "Low"
+   },
+   "bacteriosis": {
+    "probability": 0.272,
+    "risk": "High"
+   },
+   "combined_risk": "High"
+  },
+  {
+   "date": "2025-09-03",
+   "tmax": 29.0,
+   "tmin": 23.0,
+   "humidity": 88.0,
+   "wind_speed": 3.1,
+   "rainfall": 9.32,
+   "thi": 79.6,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.117,
+    "risk": "Low"
+   },
+   "bacteriosis": {
+    "probability": 0.282,
+    "risk": "High"
+   },
+   "combined_risk": "High"
+  },
+  {
+   "date": "2025-09-04",
+   "tmax": 28.5,
+   "tmin": 22.7,
+   "humidity": 88.3,
+   "wind_speed": 2.83,
+   "rainfall": 9.84,
+   "thi": 78.8,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.122,
+    "risk": "Low"
+   },
+   "bacteriosis": {
+    "probability": 0.275,
+    "risk": "High"
+   },
+   "combined_risk": "High"
+  },
+  {
+   "date": "2025-09-05",
+   "tmax": 28.9,
+   "tmin": 23.0,
+   "humidity": 88.9,
+   "wind_speed": 2.79,
+   "rainfall": 8.94,
+   "thi": 79.4,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.115,
+    "risk": "Low"
+   },
+   "bacteriosis": {
+    "probability": 0.276,
+    "risk": "High"
+   },
+   "combined_risk": "High"
+  },
+  {
+   "date": "2025-09-06",
+   "tmax": 28.5,
+   "tmin": 22.7,
+   "humidity": 90.0,
+   "wind_speed": 2.73,
+   "rainfall": 6.44,
+   "thi": 78.8,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.12,
+    "risk": "Low"
+   },
+   "bacteriosis": {
+    "probability": 0.281,
+    "risk": "High"
+   },
+   "combined_risk": "High"
+  },
+  {
+   "date": "2025-09-07",
+   "tmax": 28.4,
+   "tmin": 22.7,
+   "humidity": 88.5,
+   "wind_speed": 2.9,
+   "rainfall": 9.21,
+   "thi": 78.8,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.113,
+    "risk": "Low"
+   },
+   "bacteriosis": {
+    "probability": 0.275,
+    "risk": "High"
+   },
+   "combined_risk": "High"
+  },
+  {
+   "date": "2025-09-08",
+   "tmax": 28.4,
+   "tmin": 22.8,
+   "humidity": 89.2,
+   "wind_speed": 3.05,
+   "rainfall": 4.94,
+   "thi": 78.7,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.109,
+    "risk": "Low"
+   },
+   "bacteriosis": {
+    "probability": 0.258,
+    "risk": "Moderate"
+   },
+   "combined_risk": "Moderate"
+  },
+  {
+   "date": "2025-09-09",
+   "tmax": 28.8,
+   "tmin": 22.7,
+   "humidity": 89.2,
+   "wind_speed": 2.98,
+   "rainfall": 5.45,
+   "thi": 79.0,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.13,
+    "risk": "Low"
+   },
+   "bacteriosis": {
+    "probability": 0.264,
+    "risk": "Moderate"
+   },
+   "combined_risk": "Moderate"
+  },
+  {
+   "date": "2025-09-10",
+   "tmax": 29.1,
+   "tmin": 22.7,
+   "humidity": 88.6,
+   "wind_speed": 3.19,
+   "rainfall": 5.99,
+   "thi": 79.3,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.114,
+    "risk": "Low"
+   },
+   "bacteriosis": {
+    "probability": 0.248,
+    "risk": "Moderate"
+   },
+   "combined_risk": "Moderate"
+  },
+  {
+   "date": "2025-09-11",
+   "tmax": 27.7,
+   "tmin": 23.1,
+   "humidity": 90.8,
+   "wind_speed": 3.39,
+   "rainfall": 14.37,
+   "thi": 78.4,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.107,
+    "risk": "Low"
+   },
+   "bacteriosis": {
+    "probability": 0.246,
+    "risk": "Moderate"
+   },
+   "combined_risk": "Moderate"
+  },
+  {
+   "date": "2025-09-12",
+   "tmax": 28.5,
+   "tmin": 22.6,
+   "humidity": 88.9,
+   "wind_speed": 3.02,
+   "rainfall": 11.13,
+   "thi": 78.6,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.112,
+    "risk": "Low"
+   },
+   "bacteriosis": {
+    "probability": 0.24,
+    "risk": "Moderate"
+   },
+   "combined_risk": "Moderate"
+  },
+  {
+   "date": "2025-09-13",
+   "tmax": 27.5,
+   "tmin": 23.1,
+   "humidity": 91.9,
+   "wind_speed": 3.53,
+   "rainfall": 11.22,
+   "thi": 78.1,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.12,
+    "risk": "Low"
+   },
+   "bacteriosis": {
+    "probability": 0.242,
+    "risk": "Moderate"
+   },
+   "combined_risk": "Moderate"
+  },
+  {
+   "date": "2025-09-14",
+   "tmax": 26.7,
+   "tmin": 23.3,
+   "humidity": 93.0,
+   "wind_speed": 5.29,
+   "rainfall": 19.43,
+   "thi": 77.5,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.135,
+    "risk": "Low"
+   },
+   "bacteriosis": {
+    "probability": 0.248,
+    "risk": "Moderate"
+   },
+   "combined_risk": "Moderate"
+  },
+  {
+   "date": "2025-09-15",
+   "tmax": 27.1,
+   "tmin": 23.0,
+   "humidity": 92.2,
+   "wind_speed": 5.26,
+   "rainfall": 22.0,
+   "thi": 77.6,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.164,
+    "risk": "Low"
+   },
+   "bacteriosis": {
+    "probability": 0.265,
+    "risk": "Moderate"
+   },
+   "combined_risk": "Moderate"
+  },
+  {
+   "date": "2025-09-16",
+   "tmax": 27.7,
+   "tmin": 22.0,
+   "humidity": 90.8,
+   "wind_speed": 4.38,
+   "rainfall": 16.98,
+   "thi": 77.4,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.164,
+    "risk": "Low"
+   },
+   "bacteriosis": {
+    "probability": 0.267,
+    "risk": "Moderate"
+   },
+   "combined_risk": "Moderate"
+  },
+  {
+   "date": "2025-09-17",
+   "tmax": 28.3,
+   "tmin": 22.2,
+   "humidity": 89.1,
+   "wind_speed": 3.44,
+   "rainfall": 12.76,
+   "thi": 78.2,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.17,
+    "risk": "Low"
+   },
+   "bacteriosis": {
+    "probability": 0.264,
+    "risk": "Moderate"
+   },
+   "combined_risk": "Moderate"
+  },
+  {
+   "date": "2025-09-18",
+   "tmax": 28.5,
+   "tmin": 22.1,
+   "humidity": 88.5,
+   "wind_speed": 2.16,
+   "rainfall": 5.01,
+   "thi": 78.3,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.17,
+    "risk": "Low"
+   },
+   "bacteriosis": {
+    "probability": 0.277,
+    "risk": "High"
+   },
+   "combined_risk": "High"
+  },
+  {
+   "date": "2025-09-19",
+   "tmax": 28.6,
+   "tmin": 22.1,
+   "humidity": 90.0,
+   "wind_speed": 2.19,
+   "rainfall": 8.31,
+   "thi": 78.3,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.169,
+    "risk": "Low"
+   },
+   "bacteriosis": {
+    "probability": 0.276,
+    "risk": "High"
+   },
+   "combined_risk": "High"
+  },
+  {
+   "date": "2025-09-20",
+   "tmax": 28.7,
+   "tmin": 22.5,
+   "humidity": 90.2,
+   "wind_speed": 2.9,
+   "rainfall": 8.22,
+   "thi": 78.8,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.164,
+    "risk": "Low"
+   },
+   "bacteriosis": {
+    "probability": 0.276,
+    "risk": "High"
+   },
+   "combined_risk": "High"
+  },
+  {
+   "date": "2025-09-21",
+   "tmax": 28.6,
+   "tmin": 22.6,
+   "humidity": 90.9,
+   "wind_speed": 2.9,
+   "rainfall": 6.62,
+   "thi": 78.7,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.162,
+    "risk": "Low"
+   },
+   "bacteriosis": {
+    "probability": 0.264,
+    "risk": "Moderate"
+   },
+   "combined_risk": "Moderate"
+  },
+  {
+   "date": "2025-09-22",
+   "tmax": 27.8,
+   "tmin": 22.8,
+   "humidity": 91.5,
+   "wind_speed": 2.95,
+   "rainfall": 18.92,
+   "thi": 78.1,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.157,
+    "risk": "Low"
+   },
+   "bacteriosis": {
+    "probability": 0.248,
+    "risk": "Moderate"
+   },
+   "combined_risk": "Moderate"
+  },
+  {
+   "date": "2025-09-23",
+   "tmax": 28.3,
+   "tmin": 22.5,
+   "humidity": 90.3,
+   "wind_speed": 3.38,
+   "rainfall": 6.36,
+   "thi": 78.4,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.149,
+    "risk": "Low"
+   },
+   "bacteriosis": {
+    "probability": 0.232,
+    "risk": "Low"
+   },
+   "combined_risk": "Low"
+  },
+  {
+   "date": "2025-09-24",
+   "tmax": 28.2,
+   "tmin": 22.3,
+   "humidity": 88.9,
+   "wind_speed": 2.57,
+   "rainfall": 8.26,
+   "thi": 78.2,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.163,
+    "risk": "Low"
+   },
+   "bacteriosis": {
+    "probability": 0.241,
+    "risk": "Moderate"
+   },
+   "combined_risk": "Moderate"
+  },
+  {
+   "date": "2025-09-25",
+   "tmax": 28.5,
+   "tmin": 21.7,
+   "humidity": 87.2,
+   "wind_speed": 2.23,
+   "rainfall": 5.04,
+   "thi": 78.1,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.17,
+    "risk": "Low"
+   },
+   "bacteriosis": {
+    "probability": 0.231,
+    "risk": "Low"
+   },
+   "combined_risk": "Low"
+  },
+  {
+   "date": "2025-09-26",
+   "tmax": 27.7,
+   "tmin": 22.3,
+   "humidity": 90.7,
+   "wind_speed": 2.98,
+   "rainfall": 9.61,
+   "thi": 77.7,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.168,
+    "risk": "Low"
+   },
+   "bacteriosis": {
+    "probability": 0.224,
+    "risk": "Low"
+   },
+   "combined_risk": "Low"
+  },
+  {
+   "date": "2025-09-27",
+   "tmax": 27.5,
+   "tmin": 22.6,
+   "humidity": 91.6,
+   "wind_speed": 3.89,
+   "rainfall": 8.48,
+   "thi": 77.6,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.172,
+    "risk": "Low"
+   },
+   "bacteriosis": {
+    "probability": 0.217,
+    "risk": "Low"
+   },
+   "combined_risk": "Low"
+  },
+  {
+   "date": "2025-09-28",
+   "tmax": 28.0,
+   "tmin": 22.4,
+   "humidity": 89.8,
+   "wind_speed": 2.91,
+   "rainfall": 3.41,
+   "thi": 78.1,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.164,
+    "risk": "Low"
+   },
+   "bacteriosis": {
+    "probability": 0.208,
+    "risk": "Low"
+   },
+   "combined_risk": "Low"
+  },
+  {
+   "date": "2025-09-29",
+   "tmax": 28.1,
+   "tmin": 22.3,
+   "humidity": 90.1,
+   "wind_speed": 2.6,
+   "rainfall": 5.41,
+   "thi": 78.0,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.148,
+    "risk": "Low"
+   },
+   "bacteriosis": {
+    "probability": 0.217,
+    "risk": "Low"
+   },
+   "combined_risk": "Low"
+  },
+  {
+   "date": "2025-09-30",
+   "tmax": 28.0,
+   "tmin": 22.2,
+   "humidity": 90.7,
+   "wind_speed": 2.86,
+   "rainfall": 12.58,
+   "thi": 77.8,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.147,
+    "risk": "Low"
+   },
+   "bacteriosis": {
+    "probability": 0.228,
+    "risk": "Low"
+   },
+   "combined_risk": "Low"
+  },
+  {
+   "date": "2025-10-01",
+   "tmax": 27.9,
+   "tmin": 22.5,
+   "humidity": 91.1,
+   "wind_speed": 2.99,
+   "rainfall": 13.52,
+   "thi": 77.9,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.141,
+    "risk": "Low"
+   },
+   "bacteriosis": {
+    "probability": 0.216,
+    "risk": "Low"
+   },
+   "combined_risk": "Low"
+  },
+  {
+   "date": "2025-10-02",
+   "tmax": 27.5,
+   "tmin": 22.2,
+   "humidity": 91.3,
+   "wind_speed": 3.81,
+   "rainfall": 15.24,
+   "thi": 77.4,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.162,
+    "risk": "Low"
+   },
+   "bacteriosis": {
+    "probability": 0.219,
+    "risk": "Low"
+   },
+   "combined_risk": "Low"
+  },
+  {
+   "date": "2025-10-03",
+   "tmax": 27.4,
+   "tmin": 22.0,
+   "humidity": 92.4,
+   "wind_speed": 3.96,
+   "rainfall": 10.72,
+   "thi": 77.0,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.201,
+    "risk": "Low"
+   },
+   "bacteriosis": {
+    "probability": 0.227,
+    "risk": "Low"
+   },
+   "combined_risk": "Low"
+  },
+  {
+   "date": "2025-10-04",
+   "tmax": 27.3,
+   "tmin": 22.3,
+   "humidity": 91.7,
+   "wind_speed": 3.82,
+   "rainfall": 8.47,
+   "thi": 77.3,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.232,
+    "risk": "Low"
+   },
+   "bacteriosis": {
+    "probability": 0.231,
+    "risk": "Low"
+   },
+   "combined_risk": "Low"
+  },
+  {
+   "date": "2025-10-05",
+   "tmax": 27.7,
+   "tmin": 21.3,
+   "humidity": 88.7,
+   "wind_speed": 2.75,
+   "rainfall": 2.06,
+   "thi": 77.0,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.261,
+    "risk": "Moderate"
+   },
+   "bacteriosis": {
+    "probability": 0.238,
+    "risk": "Low"
+   },
+   "combined_risk": "Moderate"
+  },
+  {
+   "date": "2025-10-06",
+   "tmax": 28.2,
+   "tmin": 21.3,
+   "humidity": 85.5,
+   "wind_speed": 2.08,
+   "rainfall": 0.82,
+   "thi": 77.7,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.283,
+    "risk": "High"
+   },
+   "bacteriosis": {
+    "probability": 0.239,
+    "risk": "Low"
+   },
+   "combined_risk": "High"
+  },
+  {
+   "date": "2025-10-07",
+   "tmax": 28.2,
+   "tmin": 20.7,
+   "humidity": 86.6,
+   "wind_speed": 2.0,
+   "rainfall": 2.72,
+   "thi": 77.0,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.303,
+    "risk": "High"
+   },
+   "bacteriosis": {
+    "probability": 0.242,
+    "risk": "Moderate"
+   },
+   "combined_risk": "High"
+  },
+  {
+   "date": "2025-10-08",
+   "tmax": 28.1,
+   "tmin": 20.6,
+   "humidity": 86.2,
+   "wind_speed": 2.06,
+   "rainfall": 1.59,
+   "thi": 76.9,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.33,
+    "risk": "Very High"
+   },
+   "bacteriosis": {
+    "probability": 0.256,
+    "risk": "Moderate"
+   },
+   "combined_risk": "Very High"
+  },
+  {
+   "date": "2025-10-09",
+   "tmax": 28.3,
+   "tmin": 19.8,
+   "humidity": 86.2,
+   "wind_speed": 2.38,
+   "rainfall": 2.97,
+   "thi": 76.4,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.341,
+    "risk": "Very High"
+   },
+   "bacteriosis": {
+    "probability": 0.266,
+    "risk": "Moderate"
+   },
+   "combined_risk": "Very High"
+  },
+  {
+   "date": "2025-10-10",
+   "tmax": 28.2,
+   "tmin": 20.2,
+   "humidity": 86.2,
+   "wind_speed": 2.47,
+   "rainfall": 0.36,
+   "thi": 76.7,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.338,
+    "risk": "Very High"
+   },
+   "bacteriosis": {
+    "probability": 0.272,
+    "risk": "High"
+   },
+   "combined_risk": "Very High"
+  },
+  {
+   "date": "2025-10-11",
+   "tmax": 28.0,
+   "tmin": 19.8,
+   "humidity": 85.8,
+   "wind_speed": 2.33,
+   "rainfall": 1.2,
+   "thi": 76.2,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.351,
+    "risk": "Very High"
+   },
+   "bacteriosis": {
+    "probability": 0.278,
+    "risk": "High"
+   },
+   "combined_risk": "Very High"
+  },
+  {
+   "date": "2025-10-12",
+   "tmax": 27.9,
+   "tmin": 19.4,
+   "humidity": 83.4,
+   "wind_speed": 2.17,
+   "rainfall": 1.55,
+   "thi": 76.0,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.365,
+    "risk": "Very High"
+   },
+   "bacteriosis": {
+    "probability": 0.294,
+    "risk": "Very High"
+   },
+   "combined_risk": "Very High"
+  },
+  {
+   "date": "2025-10-13",
+   "tmax": 27.7,
+   "tmin": 19.3,
+   "humidity": 84.2,
+   "wind_speed": 2.06,
+   "rainfall": 1.57,
+   "thi": 75.7,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.377,
+    "risk": "Very High"
+   },
+   "bacteriosis": {
+    "probability": 0.295,
+    "risk": "Very High"
+   },
+   "combined_risk": "Very High"
+  },
+  {
+   "date": "2025-10-14",
+   "tmax": 27.7,
+   "tmin": 19.1,
+   "humidity": 84.1,
+   "wind_speed": 1.93,
+   "rainfall": 0.54,
+   "thi": 75.5,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.391,
+    "risk": "Very High"
+   },
+   "bacteriosis": {
+    "probability": 0.285,
+    "risk": "High"
+   },
+   "combined_risk": "Very High"
+  },
+  {
+   "date": "2025-10-15",
+   "tmax": 26.5,
+   "tmin": 18.9,
+   "humidity": 85.2,
+   "wind_speed": 1.86,
+   "rainfall": 1.87,
+   "thi": 74.3,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.395,
+    "risk": "Very High"
+   },
+   "bacteriosis": {
+    "probability": 0.278,
+    "risk": "High"
+   },
+   "combined_risk": "Very High"
+  },
+  {
+   "date": "2025-10-16",
+   "tmax": 27.3,
+   "tmin": 19.0,
+   "humidity": 84.7,
+   "wind_speed": 1.82,
+   "rainfall": 1.02,
+   "thi": 75.1,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.39,
+    "risk": "Very High"
+   },
+   "bacteriosis": {
+    "probability": 0.272,
+    "risk": "High"
+   },
+   "combined_risk": "Very High"
+  },
+  {
+   "date": "2025-10-17",
+   "tmax": 27.1,
+   "tmin": 19.4,
+   "humidity": 85.5,
+   "wind_speed": 2.18,
+   "rainfall": 1.83,
+   "thi": 75.2,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.388,
+    "risk": "Very High"
+   },
+   "bacteriosis": {
+    "probability": 0.269,
+    "risk": "High"
+   },
+   "combined_risk": "Very High"
+  },
+  {
+   "date": "2025-10-18",
+   "tmax": 26.4,
+   "tmin": 18.9,
+   "humidity": 86.0,
+   "wind_speed": 1.61,
+   "rainfall": 7.92,
+   "thi": 74.2,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.369,
+    "risk": "Very High"
+   },
+   "bacteriosis": {
+    "probability": 0.267,
+    "risk": "High"
+   },
+   "combined_risk": "Very High"
+  },
+  {
+   "date": "2025-10-19",
+   "tmax": 26.9,
+   "tmin": 19.0,
+   "humidity": 83.7,
+   "wind_speed": 2.26,
+   "rainfall": 1.9,
+   "thi": 74.8,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.358,
+    "risk": "Very High"
+   },
+   "bacteriosis": {
+    "probability": 0.259,
+    "risk": "Moderate"
+   },
+   "combined_risk": "Very High"
+  },
+  {
+   "date": "2025-10-20",
+   "tmax": 26.4,
+   "tmin": 17.7,
+   "humidity": 80.4,
+   "wind_speed": 2.01,
+   "rainfall": 0.82,
+   "thi": 73.7,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.354,
+    "risk": "Very High"
+   },
+   "bacteriosis": {
+    "probability": 0.26,
+    "risk": "Moderate"
+   },
+   "combined_risk": "Very High"
+  },
+  {
+   "date": "2025-10-21",
+   "tmax": 25.9,
+   "tmin": 16.7,
+   "humidity": 79.2,
+   "wind_speed": 2.44,
+   "rainfall": 0.0,
+   "thi": 72.6,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.36,
+    "risk": "Very High"
+   },
+   "bacteriosis": {
+    "probability": 0.276,
+    "risk": "High"
+   },
+   "combined_risk": "Very High"
+  },
+  {
+   "date": "2025-10-22",
+   "tmax": 26.0,
+   "tmin": 16.1,
+   "humidity": 80.4,
+   "wind_speed": 2.55,
+   "rainfall": 0.0,
+   "thi": 72.1,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.361,
+    "risk": "Very High"
+   },
+   "bacteriosis": {
+    "probability": 0.285,
+    "risk": "High"
+   },
+   "combined_risk": "Very High"
+  },
+  {
+   "date": "2025-10-23",
+   "tmax": 26.3,
+   "tmin": 16.3,
+   "humidity": 80.7,
+   "wind_speed": 2.23,
+   "rainfall": 0.0,
+   "thi": 72.5,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.365,
+    "risk": "Very High"
+   },
+   "bacteriosis": {
+    "probability": 0.282,
+    "risk": "High"
+   },
+   "combined_risk": "Very High"
+  },
+  {
+   "date": "2025-10-24",
+   "tmax": 26.3,
+   "tmin": 17.3,
+   "humidity": 81.8,
+   "wind_speed": 2.69,
+   "rainfall": 0.56,
+   "thi": 73.1,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.361,
+    "risk": "Very High"
+   },
+   "bacteriosis": {
+    "probability": 0.277,
+    "risk": "High"
+   },
+   "combined_risk": "Very High"
+  },
+  {
+   "date": "2025-10-25",
+   "tmax": 26.0,
+   "tmin": 17.4,
+   "humidity": 84.3,
+   "wind_speed": 3.07,
+   "rainfall": 0.6,
+   "thi": 72.7,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.35,
+    "risk": "Very High"
+   },
+   "bacteriosis": {
+    "probability": 0.268,
+    "risk": "High"
+   },
+   "combined_risk": "Very High"
+  },
+  {
+   "date": "2025-10-26",
+   "tmax": 26.3,
+   "tmin": 17.3,
+   "humidity": 81.9,
+   "wind_speed": 2.17,
+   "rainfall": 0.9,
+   "thi": 73.2,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.344,
+    "risk": "Very High"
+   },
+   "bacteriosis": {
+    "probability": 0.266,
+    "risk": "Moderate"
+   },
+   "combined_risk": "Very High"
+  },
+  {
+   "date": "2025-10-27",
+   "tmax": 25.8,
+   "tmin": 17.1,
+   "humidity": 79.0,
+   "wind_speed": 1.97,
+   "rainfall": 2.61,
+   "thi": 73.0,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.338,
+    "risk": "Very High"
+   },
+   "bacteriosis": {
+    "probability": 0.258,
+    "risk": "Moderate"
+   },
+   "combined_risk": "Very High"
+  },
+  {
+   "date": "2025-10-28",
+   "tmax": 26.0,
+   "tmin": 17.3,
+   "humidity": 79.1,
+   "wind_speed": 2.28,
+   "rainfall": 2.81,
+   "thi": 73.2,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.327,
+    "risk": "Very High"
+   },
+   "bacteriosis": {
+    "probability": 0.249,
+    "risk": "Moderate"
+   },
+   "combined_risk": "Very High"
+  },
+  {
+   "date": "2025-10-29",
+   "tmax": 25.8,
+   "tmin": 16.6,
+   "humidity": 79.5,
+   "wind_speed": 2.37,
+   "rainfall": 3.19,
+   "thi": 72.5,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.323,
+    "risk": "High"
+   },
+   "bacteriosis": {
+    "probability": 0.245,
+    "risk": "Moderate"
+   },
+   "combined_risk": "High"
+  },
+  {
+   "date": "2025-10-30",
+   "tmax": 26.0,
+   "tmin": 16.7,
+   "humidity": 80.4,
+   "wind_speed": 2.28,
+   "rainfall": 1.71,
+   "thi": 72.7,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.311,
+    "risk": "High"
+   },
+   "bacteriosis": {
+    "probability": 0.244,
+    "risk": "Moderate"
+   },
+   "combined_risk": "High"
+  },
+  {
+   "date": "2025-10-31",
+   "tmax": 25.3,
+   "tmin": 17.0,
+   "humidity": 81.6,
+   "wind_speed": 2.5,
+   "rainfall": 1.6,
+   "thi": 72.2,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.312,
+    "risk": "High"
+   },
+   "bacteriosis": {
+    "probability": 0.24,
+    "risk": "Moderate"
+   },
+   "combined_risk": "High"
+  },
+  {
+   "date": "2025-11-01",
+   "tmax": 26.0,
+   "tmin": 15.9,
+   "humidity": 78.4,
+   "wind_speed": 2.21,
+   "rainfall": 0.13,
+   "thi": 72.2,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.32,
+    "risk": "High"
+   },
+   "bacteriosis": {
+    "probability": 0.24,
+    "risk": "Moderate"
+   },
+   "combined_risk": "High"
+  },
+  {
+   "date": "2025-11-02",
+   "tmax": 25.4,
+   "tmin": 15.5,
+   "humidity": 77.5,
+   "wind_speed": 2.23,
+   "rainfall": 0.03,
+   "thi": 71.5,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.325,
+    "risk": "High"
+   },
+   "bacteriosis": {
+    "probability": 0.235,
+    "risk": "Low"
+   },
+   "combined_risk": "High"
+  },
+  {
+   "date": "2025-11-03",
+   "tmax": 25.3,
+   "tmin": 15.3,
+   "humidity": 74.9,
+   "wind_speed": 1.93,
+   "rainfall": 0.05,
+   "thi": 71.5,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.327,
+    "risk": "Very High"
+   },
+   "bacteriosis": {
+    "probability": 0.241,
+    "risk": "Moderate"
+   },
+   "combined_risk": "Very High"
+  },
+  {
+   "date": "2025-11-04",
+   "tmax": 25.4,
+   "tmin": 15.4,
+   "humidity": 75.1,
+   "wind_speed": 1.77,
+   "rainfall": 0.2,
+   "thi": 71.6,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.329,
+    "risk": "Very High"
+   },
+   "bacteriosis": {
+    "probability": 0.24,
+    "risk": "Moderate"
+   },
+   "combined_risk": "Very High"
+  },
+  {
+   "date": "2025-11-05",
+   "tmax": 25.2,
+   "tmin": 15.0,
+   "humidity": 74.5,
+   "wind_speed": 1.9,
+   "rainfall": 0.0,
+   "thi": 71.2,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.328,
+    "risk": "Very High"
+   },
+   "bacteriosis": {
+    "probability": 0.234,
+    "risk": "Low"
+   },
+   "combined_risk": "Very High"
+  },
+  {
+   "date": "2025-11-06",
+   "tmax": 24.9,
+   "tmin": 15.0,
+   "humidity": 77.1,
+   "wind_speed": 2.18,
+   "rainfall": 0.0,
+   "thi": 70.7,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.329,
+    "risk": "Very High"
+   },
+   "bacteriosis": {
+    "probability": 0.236,
+    "risk": "Low"
+   },
+   "combined_risk": "Very High"
+  },
+  {
+   "date": "2025-11-07",
+   "tmax": 24.3,
+   "tmin": 14.5,
+   "humidity": 75.4,
+   "wind_speed": 2.05,
+   "rainfall": 0.0,
+   "thi": 70.1,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.322,
+    "risk": "High"
+   },
+   "bacteriosis": {
+    "probability": 0.24,
+    "risk": "Moderate"
+   },
+   "combined_risk": "High"
+  },
+  {
+   "date": "2025-11-08",
+   "tmax": 23.7,
+   "tmin": 13.1,
+   "humidity": 76.5,
+   "wind_speed": 2.18,
+   "rainfall": 0.0,
+   "thi": 68.4,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.323,
+    "risk": "High"
+   },
+   "bacteriosis": {
+    "probability": 0.247,
+    "risk": "Moderate"
+   },
+   "combined_risk": "High"
+  },
+  {
+   "date": "2025-11-09",
+   "tmax": 24.0,
+   "tmin": 13.0,
+   "humidity": 77.3,
+   "wind_speed": 2.24,
+   "rainfall": 0.0,
+   "thi": 68.4,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.324,
+    "risk": "High"
+   },
+   "bacteriosis": {
+    "probability": 0.249,
+    "risk": "Moderate"
+   },
+   "combined_risk": "High"
+  },
+  {
+   "date": "2025-11-10",
+   "tmax": 24.3,
+   "tmin": 13.1,
+   "humidity": 75.8,
+   "wind_speed": 1.98,
+   "rainfall": 0.0,
+   "thi": 68.9,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.326,
+    "risk": "Very High"
+   },
+   "bacteriosis": {
+    "probability": 0.245,
+    "risk": "Moderate"
+   },
+   "combined_risk": "Very High"
+  },
+  {
+   "date": "2025-11-11",
+   "tmax": 24.3,
+   "tmin": 12.8,
+   "humidity": 78.5,
+   "wind_speed": 2.07,
+   "rainfall": 0.0,
+   "thi": 68.3,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.313,
+    "risk": "High"
+   },
+   "bacteriosis": {
+    "probability": 0.245,
+    "risk": "Moderate"
+   },
+   "combined_risk": "High"
+  },
+  {
+   "date": "2025-11-12",
+   "tmax": 24.4,
+   "tmin": 13.4,
+   "humidity": 79.5,
+   "wind_speed": 2.07,
+   "rainfall": 0.12,
+   "thi": 68.7,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.306,
+    "risk": "High"
+   },
+   "bacteriosis": {
+    "probability": 0.247,
+    "risk": "Moderate"
+   },
+   "combined_risk": "High"
+  },
+  {
+   "date": "2025-11-13",
+   "tmax": 23.8,
+   "tmin": 13.4,
+   "humidity": 78.2,
+   "wind_speed": 1.98,
+   "rainfall": 4.68,
+   "thi": 68.4,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.302,
+    "risk": "High"
+   },
+   "bacteriosis": {
+    "probability": 0.249,
+    "risk": "Moderate"
+   },
+   "combined_risk": "High"
+  },
+  {
+   "date": "2025-11-14",
+   "tmax": 23.7,
+   "tmin": 12.8,
+   "humidity": 76.8,
+   "wind_speed": 2.14,
+   "rainfall": 2.94,
+   "thi": 68.2,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.305,
+    "risk": "High"
+   },
+   "bacteriosis": {
+    "probability": 0.249,
+    "risk": "Moderate"
+   },
+   "combined_risk": "High"
+  },
+  {
+   "date": "2025-11-15",
+   "tmax": 22.8,
+   "tmin": 12.0,
+   "humidity": 78.4,
+   "wind_speed": 2.37,
+   "rainfall": 1.2,
+   "thi": 66.6,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.304,
+    "risk": "High"
+   },
+   "bacteriosis": {
+    "probability": 0.248,
+    "risk": "Moderate"
+   },
+   "combined_risk": "High"
+  },
+  {
+   "date": "2025-11-16",
+   "tmax": 23.3,
+   "tmin": 11.2,
+   "humidity": 79.5,
+   "wind_speed": 2.23,
+   "rainfall": 0.02,
+   "thi": 66.1,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.302,
+    "risk": "High"
+   },
+   "bacteriosis": {
+    "probability": 0.251,
+    "risk": "Moderate"
+   },
+   "combined_risk": "High"
+  },
+  {
+   "date": "2025-11-17",
+   "tmax": 23.5,
+   "tmin": 12.1,
+   "humidity": 82.1,
+   "wind_speed": 2.42,
+   "rainfall": 0.0,
+   "thi": 66.8,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.296,
+    "risk": "High"
+   },
+   "bacteriosis": {
+    "probability": 0.255,
+    "risk": "Moderate"
+   },
+   "combined_risk": "High"
+  },
+  {
+   "date": "2025-11-18",
+   "tmax": 23.7,
+   "tmin": 12.5,
+   "humidity": 80.7,
+   "wind_speed": 2.13,
+   "rainfall": 0.01,
+   "thi": 67.3,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.303,
+    "risk": "High"
+   },
+   "bacteriosis": {
+    "probability": 0.254,
+    "risk": "Moderate"
+   },
+   "combined_risk": "High"
+  },
+  {
+   "date": "2025-11-19",
+   "tmax": 23.3,
+   "tmin": 12.3,
+   "humidity": 78.9,
+   "wind_speed": 1.94,
+   "rainfall": 0.0,
+   "thi": 67.2,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.31,
+    "risk": "High"
+   },
+   "bacteriosis": {
+    "probability": 0.251,
+    "risk": "Moderate"
+   },
+   "combined_risk": "High"
+  },
+  {
+   "date": "2025-11-20",
+   "tmax": 23.6,
+   "tmin": 12.0,
+   "humidity": 77.1,
+   "wind_speed": 1.99,
+   "rainfall": 0.0,
+   "thi": 67.4,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.31,
+    "risk": "High"
+   },
+   "bacteriosis": {
+    "probability": 0.247,
+    "risk": "Moderate"
+   },
+   "combined_risk": "High"
+  },
+  {
+   "date": "2025-11-21",
+   "tmax": 23.5,
+   "tmin": 12.1,
+   "humidity": 76.7,
+   "wind_speed": 1.97,
+   "rainfall": 0.0,
+   "thi": 67.4,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.307,
+    "risk": "High"
+   },
+   "bacteriosis": {
+    "probability": 0.242,
+    "risk": "Moderate"
+   },
+   "combined_risk": "High"
+  },
+  {
+   "date": "2025-11-22",
+   "tmax": 23.5,
+   "tmin": 11.9,
+   "humidity": 77.7,
+   "wind_speed": 2.01,
+   "rainfall": 0.0,
+   "thi": 67.1,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.299,
+    "risk": "High"
+   },
+   "bacteriosis": {
+    "probability": 0.233,
+    "risk": "Low"
+   },
+   "combined_risk": "High"
+  },
+  {
+   "date": "2025-11-23",
+   "tmax": 22.8,
+   "tmin": 11.2,
+   "humidity": 75.2,
+   "wind_speed": 2.17,
+   "rainfall": 0.0,
+   "thi": 66.4,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.284,
+    "risk": "High"
+   },
+   "bacteriosis": {
+    "probability": 0.226,
+    "risk": "Low"
+   },
+   "combined_risk": "High"
+  },
+  {
+   "date": "2025-11-24",
+   "tmax": 22.8,
+   "tmin": 11.4,
+   "humidity": 70.2,
+   "wind_speed": 1.82,
+   "rainfall": 0.0,
+   "thi": 67.2,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.286,
+    "risk": "High"
+   },
+   "bacteriosis": {
+    "probability": 0.221,
+    "risk": "Low"
+   },
+   "combined_risk": "High"
+  },
+  {
+   "date": "2025-11-25",
+   "tmax": 22.6,
+   "tmin": 10.1,
+   "humidity": 69.0,
+   "wind_speed": 1.96,
+   "rainfall": 0.0,
+   "thi": 66.3,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.28,
+    "risk": "Moderate"
+   },
+   "bacteriosis": {
+    "probability": 0.217,
+    "risk": "Low"
+   },
+   "combined_risk": "Moderate"
+  },
+  {
+   "date": "2025-11-26",
+   "tmax": 22.0,
+   "tmin": 10.2,
+   "humidity": 70.5,
+   "wind_speed": 2.17,
+   "rainfall": 0.0,
+   "thi": 65.6,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.274,
+    "risk": "Moderate"
+   },
+   "bacteriosis": {
+    "probability": 0.214,
+    "risk": "Low"
+   },
+   "combined_risk": "Moderate"
+  },
+  {
+   "date": "2025-11-27",
+   "tmax": 21.7,
+   "tmin": 10.3,
+   "humidity": 72.5,
+   "wind_speed": 1.86,
+   "rainfall": 0.0,
+   "thi": 65.1,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.271,
+    "risk": "Moderate"
+   },
+   "bacteriosis": {
+    "probability": 0.211,
+    "risk": "Low"
+   },
+   "combined_risk": "Moderate"
+  },
+  {
+   "date": "2025-11-28",
+   "tmax": 22.2,
+   "tmin": 10.3,
+   "humidity": 74.2,
+   "wind_speed": 1.89,
+   "rainfall": 0.0,
+   "thi": 65.3,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.285,
+    "risk": "High"
+   },
+   "bacteriosis": {
+    "probability": 0.208,
+    "risk": "Low"
+   },
+   "combined_risk": "High"
+  },
+  {
+   "date": "2025-11-29",
+   "tmax": 22.7,
+   "tmin": 10.7,
+   "humidity": 73.6,
+   "wind_speed": 1.86,
+   "rainfall": 0.01,
+   "thi": 66.0,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.296,
+    "risk": "High"
+   },
+   "bacteriosis": {
+    "probability": 0.212,
+    "risk": "Low"
+   },
+   "combined_risk": "High"
+  },
+  {
+   "date": "2025-11-30",
+   "tmax": 23.0,
+   "tmin": 11.5,
+   "humidity": 75.2,
+   "wind_speed": 1.97,
+   "rainfall": 0.14,
+   "thi": 66.6,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.308,
+    "risk": "High"
+   },
+   "bacteriosis": {
+    "probability": 0.213,
+    "risk": "Low"
+   },
+   "combined_risk": "High"
+  },
+  {
+   "date": "2025-12-01",
+   "tmax": 22.7,
+   "tmin": 12.2,
+   "humidity": 76.1,
+   "wind_speed": 1.55,
+   "rainfall": 0.07,
+   "thi": 66.9,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.304,
+    "risk": "High"
+   },
+   "bacteriosis": {
+    "probability": 0.219,
+    "risk": "Low"
+   },
+   "combined_risk": "High"
+  },
+  {
+   "date": "2025-12-02",
+   "tmax": 22.6,
+   "tmin": 12.5,
+   "humidity": 76.3,
+   "wind_speed": 1.48,
+   "rainfall": 0.01,
+   "thi": 67.0,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.304,
+    "risk": "High"
+   },
+   "bacteriosis": {
+    "probability": 0.222,
+    "risk": "Low"
+   },
+   "combined_risk": "High"
+  },
+  {
+   "date": "2025-12-03",
+   "tmax": 23.8,
+   "tmin": 12.6,
+   "humidity": 78.6,
+   "wind_speed": 1.78,
+   "rainfall": 0.01,
+   "thi": 67.7,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.296,
+    "risk": "High"
+   },
+   "bacteriosis": {
+    "probability": 0.229,
+    "risk": "Low"
+   },
+   "combined_risk": "High"
+  },
+  {
+   "date": "2025-12-04",
+   "tmax": 23.1,
+   "tmin": 12.2,
+   "humidity": 78.4,
+   "wind_speed": 2.42,
+   "rainfall": 0.1,
+   "thi": 66.8,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.29,
+    "risk": "High"
+   },
+   "bacteriosis": {
+    "probability": 0.233,
+    "risk": "Low"
+   },
+   "combined_risk": "High"
+  },
+  {
+   "date": "2025-12-05",
+   "tmax": 21.5,
+   "tmin": 12.2,
+   "humidity": 78.4,
+   "wind_speed": 2.56,
+   "rainfall": 1.04,
+   "thi": 65.7,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.273,
+    "risk": "Moderate"
+   },
+   "bacteriosis": {
+    "probability": 0.242,
+    "risk": "Moderate"
+   },
+   "combined_risk": "Moderate"
+  },
+  {
+   "date": "2025-12-06",
+   "tmax": 21.3,
+   "tmin": 11.2,
+   "humidity": 81.3,
+   "wind_speed": 2.86,
+   "rainfall": 4.1,
+   "thi": 64.3,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.26,
+    "risk": "Moderate"
+   },
+   "bacteriosis": {
+    "probability": 0.246,
+    "risk": "Moderate"
+   },
+   "combined_risk": "Moderate"
+  },
+  {
+   "date": "2025-12-07",
+   "tmax": 21.0,
+   "tmin": 10.6,
+   "humidity": 79.5,
+   "wind_speed": 2.75,
+   "rainfall": 4.71,
+   "thi": 63.9,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.25,
+    "risk": "Moderate"
+   },
+   "bacteriosis": {
+    "probability": 0.246,
+    "risk": "Moderate"
+   },
+   "combined_risk": "Moderate"
+  },
+  {
+   "date": "2025-12-08",
+   "tmax": 21.4,
+   "tmin": 10.3,
+   "humidity": 77.6,
+   "wind_speed": 2.68,
+   "rainfall": 0.16,
+   "thi": 64.2,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.245,
+    "risk": "Moderate"
+   },
+   "bacteriosis": {
+    "probability": 0.243,
+    "risk": "Moderate"
+   },
+   "combined_risk": "Moderate"
+  },
+  {
+   "date": "2025-12-09",
+   "tmax": 21.9,
+   "tmin": 9.9,
+   "humidity": 78.0,
+   "wind_speed": 2.85,
+   "rainfall": 0.69,
+   "thi": 64.2,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.244,
+    "risk": "Moderate"
+   },
+   "bacteriosis": {
+    "probability": 0.242,
+    "risk": "Moderate"
+   },
+   "combined_risk": "Moderate"
+  },
+  {
+   "date": "2025-12-10",
+   "tmax": 21.2,
+   "tmin": 9.1,
+   "humidity": 73.1,
+   "wind_speed": 2.59,
+   "rainfall": 0.04,
+   "thi": 63.8,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.248,
+    "risk": "Moderate"
+   },
+   "bacteriosis": {
+    "probability": 0.237,
+    "risk": "Low"
+   },
+   "combined_risk": "Moderate"
+  },
+  {
+   "date": "2025-12-11",
+   "tmax": 21.2,
+   "tmin": 8.2,
+   "humidity": 69.0,
+   "wind_speed": 2.35,
+   "rainfall": 0.05,
+   "thi": 63.8,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.247,
+    "risk": "Moderate"
+   },
+   "bacteriosis": {
+    "probability": 0.236,
+    "risk": "Low"
+   },
+   "combined_risk": "Moderate"
+  },
+  {
+   "date": "2025-12-12",
+   "tmax": 21.8,
+   "tmin": 8.9,
+   "humidity": 68.8,
+   "wind_speed": 2.02,
+   "rainfall": 0.0,
+   "thi": 64.8,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.246,
+    "risk": "Moderate"
+   },
+   "bacteriosis": {
+    "probability": 0.232,
+    "risk": "Low"
+   },
+   "combined_risk": "Moderate"
+  },
+  {
+   "date": "2025-12-13",
+   "tmax": 21.5,
+   "tmin": 9.1,
+   "humidity": 71.0,
+   "wind_speed": 2.54,
+   "rainfall": 0.0,
+   "thi": 64.4,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.243,
+    "risk": "Moderate"
+   },
+   "bacteriosis": {
+    "probability": 0.229,
+    "risk": "Low"
+   },
+   "combined_risk": "Moderate"
+  },
+  {
+   "date": "2025-12-14",
+   "tmax": 21.4,
+   "tmin": 8.1,
+   "humidity": 66.8,
+   "wind_speed": 2.47,
+   "rainfall": 0.0,
+   "thi": 64.3,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.241,
+    "risk": "Moderate"
+   },
+   "bacteriosis": {
+    "probability": 0.228,
+    "risk": "Low"
+   },
+   "combined_risk": "Moderate"
+  },
+  {
+   "date": "2025-12-15",
+   "tmax": 20.7,
+   "tmin": 8.3,
+   "humidity": 68.1,
+   "wind_speed": 2.58,
+   "rainfall": 0.0,
+   "thi": 63.7,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.244,
+    "risk": "Moderate"
+   },
+   "bacteriosis": {
+    "probability": 0.229,
+    "risk": "Low"
+   },
+   "combined_risk": "Moderate"
+  },
+  {
+   "date": "2025-12-16",
+   "tmax": 21.1,
+   "tmin": 7.5,
+   "humidity": 67.4,
+   "wind_speed": 2.64,
+   "rainfall": 0.0,
+   "thi": 63.5,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.241,
+    "risk": "Moderate"
+   },
+   "bacteriosis": {
+    "probability": 0.227,
+    "risk": "Low"
+   },
+   "combined_risk": "Moderate"
+  },
+  {
+   "date": "2025-12-17",
+   "tmax": 20.8,
+   "tmin": 8.0,
+   "humidity": 69.2,
+   "wind_speed": 2.39,
+   "rainfall": 0.0,
+   "thi": 63.3,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.237,
+    "risk": "Moderate"
+   },
+   "bacteriosis": {
+    "probability": 0.227,
+    "risk": "Low"
+   },
+   "combined_risk": "Moderate"
+  },
+  {
+   "date": "2025-12-18",
+   "tmax": 20.4,
+   "tmin": 7.6,
+   "humidity": 70.2,
+   "wind_speed": 2.46,
+   "rainfall": 0.0,
+   "thi": 62.5,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.245,
+    "risk": "Moderate"
+   },
+   "bacteriosis": {
+    "probability": 0.224,
+    "risk": "Low"
+   },
+   "combined_risk": "Moderate"
+  },
+  {
+   "date": "2025-12-19",
+   "tmax": 20.3,
+   "tmin": 7.1,
+   "humidity": 66.0,
+   "wind_speed": 2.29,
+   "rainfall": 0.0,
+   "thi": 62.9,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.246,
+    "risk": "Moderate"
+   },
+   "bacteriosis": {
+    "probability": 0.222,
+    "risk": "Low"
+   },
+   "combined_risk": "Moderate"
+  },
+  {
+   "date": "2025-12-20",
+   "tmax": 20.5,
+   "tmin": 6.9,
+   "humidity": 67.8,
+   "wind_speed": 2.3,
+   "rainfall": 0.0,
+   "thi": 62.5,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.255,
+    "risk": "Moderate"
+   },
+   "bacteriosis": {
+    "probability": 0.221,
+    "risk": "Low"
+   },
+   "combined_risk": "Moderate"
+  },
+  {
+   "date": "2025-12-21",
+   "tmax": 20.7,
+   "tmin": 7.7,
+   "humidity": 69.2,
+   "wind_speed": 1.97,
+   "rainfall": 0.0,
+   "thi": 63.2,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.257,
+    "risk": "Moderate"
+   },
+   "bacteriosis": {
+    "probability": 0.223,
+    "risk": "Low"
+   },
+   "combined_risk": "Moderate"
+  },
+  {
+   "date": "2025-12-22",
+   "tmax": 21.1,
+   "tmin": 8.0,
+   "humidity": 65.2,
+   "wind_speed": 1.94,
+   "rainfall": 0.0,
+   "thi": 64.3,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.258,
+    "risk": "Moderate"
+   },
+   "bacteriosis": {
+    "probability": 0.222,
+    "risk": "Low"
+   },
+   "combined_risk": "Moderate"
+  },
+  {
+   "date": "2025-12-23",
+   "tmax": 21.8,
+   "tmin": 10.1,
+   "humidity": 68.7,
+   "wind_speed": 1.66,
+   "rainfall": 0.0,
+   "thi": 65.7,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.261,
+    "risk": "Moderate"
+   },
+   "bacteriosis": {
+    "probability": 0.221,
+    "risk": "Low"
+   },
+   "combined_risk": "Moderate"
+  },
+  {
+   "date": "2025-12-24",
+   "tmax": 22.4,
+   "tmin": 9.7,
+   "humidity": 71.7,
+   "wind_speed": 2.26,
+   "rainfall": 0.0,
+   "thi": 65.3,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.269,
+    "risk": "Moderate"
+   },
+   "bacteriosis": {
+    "probability": 0.219,
+    "risk": "Low"
+   },
+   "combined_risk": "Moderate"
+  },
+  {
+   "date": "2025-12-25",
+   "tmax": 22.2,
+   "tmin": 9.6,
+   "humidity": 75.8,
+   "wind_speed": 2.23,
+   "rainfall": 0.0,
+   "thi": 64.4,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.266,
+    "risk": "Moderate"
+   },
+   "bacteriosis": {
+    "probability": 0.222,
+    "risk": "Low"
+   },
+   "combined_risk": "Moderate"
+  },
+  {
+   "date": "2025-12-26",
+   "tmax": 22.2,
+   "tmin": 11.0,
+   "humidity": 73.5,
+   "wind_speed": 1.82,
+   "rainfall": 0.0,
+   "thi": 65.9,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.265,
+    "risk": "Moderate"
+   },
+   "bacteriosis": {
+    "probability": 0.227,
+    "risk": "Low"
+   },
+   "combined_risk": "Moderate"
+  },
+  {
+   "date": "2025-12-27",
+   "tmax": 22.3,
+   "tmin": 10.3,
+   "humidity": 73.7,
+   "wind_speed": 1.79,
+   "rainfall": 0.0,
+   "thi": 65.3,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.255,
+    "risk": "Moderate"
+   },
+   "bacteriosis": {
+    "probability": 0.229,
+    "risk": "Low"
+   },
+   "combined_risk": "Moderate"
+  },
+  {
+   "date": "2025-12-28",
+   "tmax": 21.9,
+   "tmin": 9.5,
+   "humidity": 72.5,
+   "wind_speed": 2.22,
+   "rainfall": 2.37,
+   "thi": 64.7,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.251,
+    "risk": "Moderate"
+   },
+   "bacteriosis": {
+    "probability": 0.226,
+    "risk": "Low"
+   },
+   "combined_risk": "Moderate"
+  },
+  {
+   "date": "2025-12-29",
+   "tmax": 21.6,
+   "tmin": 9.9,
+   "humidity": 75.6,
+   "wind_speed": 2.68,
+   "rainfall": 2.27,
+   "thi": 64.5,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.244,
+    "risk": "Moderate"
+   },
+   "bacteriosis": {
+    "probability": 0.224,
+    "risk": "Low"
+   },
+   "combined_risk": "Moderate"
+  },
+  {
+   "date": "2025-12-30",
+   "tmax": 21.5,
+   "tmin": 9.0,
+   "humidity": 71.2,
+   "wind_speed": 2.53,
+   "rainfall": 0.4,
+   "thi": 64.3,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.238,
+    "risk": "Moderate"
+   },
+   "bacteriosis": {
+    "probability": 0.223,
+    "risk": "Low"
+   },
+   "combined_risk": "Moderate"
+  },
+  {
+   "date": "2025-12-31",
+   "tmax": 21.3,
+   "tmin": 8.6,
+   "humidity": 66.4,
+   "wind_speed": 2.11,
+   "rainfall": 0.05,
+   "thi": 64.6,
+   "years_sampled": 5,
+   "virosis": {
+    "probability": 0.232,
+    "risk": "Low"
+   },
+   "bacteriosis": {
+    "probability": 0.223,
+    "risk": "Low"
+   },
+   "combined_risk": "Low"
+  }
+ ]
+}
